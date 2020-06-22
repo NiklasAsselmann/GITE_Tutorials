@@ -27,7 +27,12 @@
 
 ## 1 Introduction
 Was haben diese drei Bilder gemeinsam?
-![Kartenvisualisierung](Abbildung_1.png) ![Politikvisualisierung](Abbildung_2.jpg) ![3D Visualisierung](Abbildung_3.jpg)
+![Kartenvisualisierung](Abbildung_10.jpg) Abbildung: Kriminalitätsrate in en USA Quelle:
+https://securinghome.com/blog/crime-rate-by-state/
+![Politikvisualisierung](Abbildung_2.jpg) Abbildung: Sitzverteilung in Bundestag, Quelle: https://www.bundestag.de/parlament/plenum/sitzverteilung17-259488 
+![3D Visualisierung](Abbildung_11.jpg) Abbildung: 3D Datenvisualisierung Quelle:
+https://de.123rf.com/
+
 - Die Antwort auf diese Frage ist, dass alle drei Abbildungen Daten visualisieren. 
 Aber was genau ist Datenvisualisierung?
 - Definiert wird Datenvisualierung als die grafische Darstellung von Informationen und Daten.
@@ -299,7 +304,7 @@ Beispiel (Geospatial):
 
       Tools: [d3](http://d3js.org/)/[Protovis](http://mbostock.github.com/protovis/ex/matrix.html)
 
-      Abbildung created by [sample Protovis code](http://mbostock.github.com/protovis/ex/matrix.html).
+      Abbildung erstellt von [sample Protovis code](http://mbostock.github.com/protovis/ex/matrix.html).
 
   - **Abhängigkeitsgraph**
 
