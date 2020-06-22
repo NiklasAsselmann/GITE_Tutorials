@@ -1,5 +1,5 @@
 # Einführung in die Datenvisualisierung
-**Autors**: Niklas Aßelmann 
+**Autors**: Niklas Aßelmann, Mohammed Abdelal
 
 ---
 
