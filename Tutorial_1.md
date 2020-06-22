@@ -27,10 +27,10 @@
 
 ## 1 Introduction
 Was haben diese drei Bilder gemeinsam?
-![Kartenvisualisierung](Abbildung_10.jpg) Abbildung: Kriminalitätsrate in en USA Quelle:
+![Kartenvisualisierung](Abbildung_10.jpg) Abbildung: Kriminalitätsrate in den USA Quelle:
 https://securinghome.com/blog/crime-rate-by-state/
 ![Politikvisualisierung](Abbildung_2.jpg) Abbildung: Sitzverteilung in Bundestag, Quelle: https://www.bundestag.de/parlament/plenum/sitzverteilung17-259488 
-![3D Visualisierung](Abbildung_11.jpg) Abbildung: 3D Datenvisualisierung Quelle:
+![3D Visualisierung](Abbildung_11.jpg) Abbildung: 3D Datenvisualisierung, Quelle:
 https://de.123rf.com/
 
 - Die Antwort auf diese Frage ist, dass alle drei Abbildungen Daten visualisieren. 
@@ -52,6 +52,7 @@ Aber was genau ist Datenvisualisierung?
 ### 2.5 Andere
 - Datenvisualisierungen sind in fast alle Feldern zu finden, die mit Datenbeschaffung, Daten Analyse oder Datenspeicherung arbeiten.
 
+---
 
 ## 3 Vor- und Nachteile
 ### 3.1 Vorteile
@@ -62,6 +63,8 @@ Aber was genau ist Datenvisualisierung?
 - Zu abstrakt (Wichtige Sachverhalte können nicht erkennbar sein)
 - Kann zu Verzerrungen kommen
 - Fehlinterpretationen
+
+---
 
 ## 4 Regeln
 ### 4.1 Regeln für gute Datenvisualisierungen
@@ -83,6 +86,8 @@ Aber was genau ist Datenvisualisierung?
 - Um kritische Fehler beim Erstellen von Datenvisualisierungen zu vermeiden haben wir euch dieses Video rausgesucht, in dem es um die 7 Todsünden der Visualisierung geht. Hier geht es zum Video: 
 - (https://www.youtube.com/watch?v=iqaJLHi92fA&list=WL&index=6&t=0s)
 
+---
+
 ## 5 Formen von Datenvisualisierung
 - Im Folgenden werden einigen Formen der Datenvisualisierung dargestellt (Bei manchen Darstellungen gibt es keinen deutschen Fachterminus). Außerdem werden verschiedenste Tools aufgezählt mit denwen diese Visualisierungen erstellt werden können.
 
@@ -97,14 +102,14 @@ Aber was genau ist Datenvisualisierung?
 
 ### 1D/Linear:
 
-Beispiel:
+Beispiele:
 
 - Liste von Daten, welche nach einem einzigen Kriterium geordnet sind (z.B., alphabetisch)
 - (wird gewöhnlich nicht visualisiert)
 
 ### 2D/Planar
 
-Beispiel (Geospatial):
+Beispiele (Geospatial):
 
 - **[Choroplethenkarte](https://de.wikipedia.org/wiki/Choroplethenkarte)**
 
