@@ -1,30 +1,30 @@
-# introduction to information visualization
+# Einführung in die Informationsvisualisierung
 
 Created: Jun 20, 2020 10:04 PM
 Reviewed: No
 
-Information Visualization: the use of computer-supported, interactive, visual representations of abstract data to amplify cognition[[1](https://www.researchgate.net/publication/220691172_Readings_in_Information_Visualization_Using_Vision_To_Think)]
+- Informationsvisualisierung: die Verwendung computergestützter, interaktiver, visueller Darstellungen abstrakter Daten zur Verstärkung der Wahrnehmung [[1](https://www.researchgate.net/publication/220691172_Readings_in_Information_Visualization_Using_Vision_To_Think)]
 
-### Diagram of visualization process
+### Diagramm des Visualisierungsprocesses
 
-the following diagram shows the visualization process
+- das folgende Diagramm zeigt den Process der Visualisierung
 
 ![introduction%20to%20information%20visualization%208d8463d309c3460f92f53cc5ced6412e/Untitled.png](introduction%20to%20information%20visualization%208d8463d309c3460f92f53cc5ced6412e/Untitled.png)
 
-The user can interact with the visualization itself and with the data. And being able to interact with these elements enables the user to answer a number of different questions.
+Der Benutzer kann mit der Visualisierung selbst und mit den Daten interagieren. Die Möglichkeit, mit diesen Elementen zu interagieren, ermöglicht es dem Benutzer, eine Reihe verschiedener Fragen zu beantworten.
 
-Users can interact with the visual representation by interacting with a computer. So he can change ***what*** is visualized and ***how*** it is visualized.
+Benutzer können mit der visuellen Darstellung interagieren, indem sie mit einem Computer interagieren. So kann er ändern **was** visualisiert wird und **wie** es visualisiert wird.
 
-This enables solving problems with data with **less effort** in a **shorter time** and **more accurate.**
+Das ermöglich die Problemlösung mit Daten mit **weniger Aufwand** in **kürzeren Zeit** und **genauer**.
 
-### Why **Visualize** data?
+### Warum visualisieren wir Daten?
 
-We use visualization to better understanding some phenomena. Who is using visualization and interacting with it has some **goals** refer to a specific phenomena and mental models of **what** this phenomena is and **how** it works.
+Wir verwenden Visualisierung, um einige Phänomene besser zu verstehen. Wer Visualisierung verwendet und mit ihr interagiert, hat einige **Ziele**, die sich auf bestimmte Phänomene und mentale Modelle beziehen, **was** dieses Phänomen ist und **wie** es funktioniert.
 
-visualization systems use data, visual representations, and interaction to help people understand some phenomena better.
+Visualisierungssysteme verwenden Daten, visuelle Darstellungen und Interaktionen, um Menschen zu helfen, einige Phänomene besser zu verstehen.
 
-### Why do we use visualization?
+### Warum benutzen wir Visualisierungen?
 
-- Explanatory
-- Exploratoy
-- Confirmatory
+- Erläuternd
+- Erforschend
+- Bestätigend
