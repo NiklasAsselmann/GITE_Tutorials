@@ -43,7 +43,7 @@ Aber was genau ist Datenvisualisierung?
 
 - das folgende Diagramm zeigt den Process der Visualisierung
 
-![introduction%20to%20information%20visualization%208d8463d309c3460f92f53cc5ced6412e/Untitled.png](introduction%20to%20information%20visualization%208d8463d309c3460f92f53cc5ced6412e/Untitled.png)
+![visualization%20process.png](visualization%20process.png)
 
 Der Benutzer kann mit der Visualisierung selbst und mit den Daten interagieren. Die Möglichkeit, mit diesen Elementen zu interagieren, ermöglicht es dem Benutzer, eine Reihe verschiedener Fragen zu beantworten.
 
