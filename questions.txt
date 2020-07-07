@@ -1,0 +1,13 @@
+Fragen für das Quiz am Ende von Tutorial Nr 1.
+- Welche Drei Funktionen haben Datenvisualisierung
+    A: Erläuternd, Erforschend, Bestätigend
+- Welche Fehler können bei Visualisierungen auftreten?
+    A: Zu abstrakt (Wichtige Sachverhalte können nicht erkennbar sein), Kann zu Verzerrungen kommen, Fehlinterpretationen
+- Nenne die Regeln für gute Datenvisualisierungen
+    A:  1. klare Botschaft
+        2. einheitlichen Darstellungsregeln
+        3. einfach erfassbar
+        4. schnell erfassbar
+        5. hohe Informationsdichte
+        6. auf das Wesentliche konzentrieren
+        7. konkrete Handlungsoptionen aufzeigen
