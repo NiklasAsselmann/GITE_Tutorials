@@ -31,4 +31,4 @@ Leaflet ist eine Open-Source JavaScript-Bibliothek für interaktive, nutzerfreun
 
 Eine Karte ist bereits mit wenigen Zeilen Code und ohne großem Vorwissen in der Programmierung erstellbar. Zudem ist Leaflet sehr einfach mit weiteren Plugins erweiterbar. In diesem Tutorial beschränken wir uns jedoch auf das einfache Erstellen von nutzerfreundlichen Karten. Wie man ein zusätzliches Plugin, welches die bereits große Anzahl an durch Leaflet bereitgestellten Funktionen erweitert, wird nicht besprochen.
 
-Wer sich für die gebotenen Möglichkeiten und Funktionen von Leaflet interessiert kann diese [hier](https://leafletjs.com/reference-1.6.0.html) nachlesen.
+Wer sich für die gebotenen Möglichkeiten und Funktionen von Leaflet interessiert kann diese in der sehr ausführlichen, aber dennoch gut strukturierten [Dokumentation](https://leafletjs.com/reference-1.6.0.html) nachlesen.
