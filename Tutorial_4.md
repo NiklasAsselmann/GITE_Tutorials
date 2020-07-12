@@ -27,4 +27,6 @@
 
 ## 1 Was ist Leaflet?
 
-Leaflet ist eine Open-Source Bibliothek für interaktive, nutzerfreundliche Karten. Leaflet ist kompatibel mit allen gängigen Webbrowsers, wie Google Chrome und Firefox. Leaflet ermöglicht selbst kann sehr einfach mit weiteren Plugins erweiterbar. 
+Leaflet ist eine Open-Source JavaScript-Bibliothek für interaktive, nutzerfreundliche Karten. Leaflet verwendet HTML und CSS und wird von allen gängigen Webbroswern, wie Google Chrome, Firefox oder Safari auf Desktop-, sowie Mobilgeräten unterstützt. 
+
+Eine Karte ist bereits mit wenigen Zeilen Code und ohne großem Vorwissen in der Programmierung erstellbar. Zudem ist Leaflet sehr einfach mit weiteren Plugins erweiterbar. In diesem Tutorial beschränken wir uns jedoch auf das einfache Erstellen von nutzerfreundlichen Karten. Wie man ein zusätzliches Plugin, welches die bereits große Anzahl an durch Leaflet bereitgestellten Funktionen erweitert, wird nicht besprochen.
