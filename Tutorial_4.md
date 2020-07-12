@@ -5,7 +5,7 @@
 
 ## Übersicht
 
-- [1 Was ist Leaflet?](#1-wasistleaflet)
+- [1 Was ist Leaflet?](#1-Was-ist-Leaflet?)
 - [2 Nutzungsgebiet von Datenvisualisierungen](#2-Nutzungsgebiet-von-Datenvisualisierungen)
   * [2.1 Politik](#21-Politik)
   * [2.2 Naturwissenschaft](#22-Naturwissenschaft)
