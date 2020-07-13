@@ -138,7 +138,7 @@ Beispiele (Geospatial):
 
 - **[Choroplethenkarte](https://de.wikipedia.org/wiki/Choroplethenkarte)**
 
-    ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled.png](data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled.png)
+    ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled.png =100x20](data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled.png)
 
     Tools: [GeoCommons](http://geocommons.com/), [Google Fusion Tables](http://code.google.com/apis/fusiontables/), [Google Maps API](https://developers.google.com/maps/), [Polymaps](http://polymaps.org/), [d3](http://d3js.org/)/[Protovis](http://mbostock.github.com/protovis/ex/choropleth.html), [Many Eyes](http://www-958.ibm.com/software/data/cognos/manyeyes/page/World_Map.html), [Google Charts](https://developers.google.com/chart/), [Tableau Public](http://www-958.ibm.com/software/data/cognos/manyeyes/), [Sci2](https://sci2.cns.iu.edu/), [TileMill](http://mapbox.com/tilemill/)
 
