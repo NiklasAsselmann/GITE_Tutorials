@@ -127,3 +127,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: 'your.mapbox.access.token'
 }).addTo(mymap);
 ```
+
+Stelle stets sicher, dass der JavaScript Code nach dem ```<div>``` Element, welches die Karte enthält, eingebunden wird. 
+
+Glückwunsch! Nun solltest du deine erste funktionierende Leafletkarte erstellt haben.
