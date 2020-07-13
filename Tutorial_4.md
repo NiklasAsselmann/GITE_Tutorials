@@ -70,7 +70,7 @@ Speicher dieses Dokument als "index.html" ab.
 
 Um die Funktionen von Leaflet zu benutzen ist es nötig die vorprogrammierten CSS- und JavaScript-Dateien in unserem Dokument zu integrieren.
 
-Füge dazu in dem <head> Teil deines Dokumentes Leaflet CSS hinzu:
+Füge dazu in dem ```<head>``` Teil deines Dokumentes Leaflet CSS hinzu:
 
 ```
 <link
@@ -91,7 +91,7 @@ Anschließend Leaflet JavaScript. Beachte, dass Leaflet JavaScript **nach** Leaf
     ></script>
 ```
 
-Für die Leaflet-Karte erstellen wir ein <div> Element mit der id "map" im <body> Teil des Dokumentes, welches die Karte enthalten soll:
+Für die Leaflet-Karte erstellen wir ein ```<div>``` Element mit der id "map" im ```<body>``` Teil des Dokumentes, welches die Karte enthalten soll:
 
 ```
 <div id="map"></div>
