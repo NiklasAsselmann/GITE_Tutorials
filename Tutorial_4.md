@@ -46,23 +46,23 @@ Zunächst bereiten wir unser HTML-Dokument vor:
 
 <html>
 
-<head>
+  <head>
 
-<title>Leaflet Web Map</title>
+    <title>Leaflet Web Map</title>
 
-<style>
+    <style>
 
-</style>
+    </style>
 
-</head>
+  </head>
 
-<body>
+  <body>
 
-<script>
+    <script>
 
-</script>
+    </script>
 
-</body>
+  </body>
 
 </html>
 ```
