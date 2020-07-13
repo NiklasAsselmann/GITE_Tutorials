@@ -37,10 +37,9 @@ Wer sich für die gebotenen Möglichkeiten und Funktionen von Leaflet interessie
 
 Nun kommen wir zur Step-by-Step Anleitung zur Erstellung einer einfachen Karte in einem beliebigen Webbrowser.
 
-Öffne dazu einen beliebigen Texteditor. Wir empfehlen an dieser Stelle einen HTML-Editor, wie [Brackets](http://brackets.io) oder [Atom](https://atom.io), welche für das Erstellen von Webanwendungen gut geeignet sind. Letzlich funktioniert aber auch ein einfacher Notepad-editor.
+Für die Programmierung ist ein Texteditor notwendig. Wir empfehlen an dieser Stelle einen HTML-Editor, wie [Brackets](http://brackets.io) oder [Atom](https://atom.io), welche für das Erstellen von Webanwendungen gut geeignet sind. Letzlich funktioniert aber auch ein einfacher Notepad-editor.
 
-Zunächst bereiten wir unser HTML-Dokument vor:
-
+Zunächst bereiten wir unser HTML-Dokument vor. Öffne dazu deinen Texteditor und füge den folgenden Code deinem Dokument hinzu, womit die Struktur deiner Webseite definiert wird:
 ```
 <!DOCTYPE html>
 
@@ -66,3 +65,5 @@ Zunächst bereiten wir unser HTML-Dokument vor:
 
 </html>
 ```
+
+Speicher dieses Dokument als "index.html" ab.
