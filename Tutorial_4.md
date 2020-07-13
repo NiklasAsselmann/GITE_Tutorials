@@ -114,3 +114,16 @@ var map = L.map('map').setView([48.775, 9.182], 13);
 **Übung:**
 1) Finde heraus wofür die oben stehenden Zahlen stehen?
 2) Erstelle eine Karte auf der Münster im Zentrum zu sehen ist und stelle das Zoomlevel so ein, dass die Stadt Dortmund auf der Karte zu sehen ist.
+
+Füge als nächstes deiner Karte einen Tilelayer hinzu. In diesem Fall handelt es sich um den Tilelayer "Mapbox Streets". Das Erstellen eines Tilelayers umfasst normalerweise die Definition der URL-Vorlage für die Layerbilder, des Beschreibungstextes und der maximalen Zoomstufe des Layers.
+
+```
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox/streets-v11',
+    tileSize: 512,
+    zoomOffset: -1,
+    accessToken: 'your.mapbox.access.token'
+}).addTo(mymap);
+```
