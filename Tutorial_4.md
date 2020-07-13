@@ -113,7 +113,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     tileSize: 512,
     zoomOffset: -1,
     accessToken: 'your.mapbox.access.token'
-}).addTo(mymap);
+}).addTo(map);
 ```
 
 Stelle stets sicher, dass der JavaScript Code nach dem ```<div>``` Element, welches die Karte enthält, eingebunden wird. 
@@ -134,3 +134,25 @@ marker.bindPopup("Geo 1 an der WWU").openPopup();
 **Übung:**
 1) Füge die Fußballstadien Allianz Arena (München) und Signal Iduna Park (Dortmund) der Karte als Marker hinzu.
 2) Beschreibe beide Marker, indem du Ihnen den Namen der Stadien gibst.
+
+Du kannst auch andere geographische Objekte, wie Kreise, Polygone oder Polylinien der Karte hinzufügen.
+
+Einen Kreis fügst du analog zum Marker ähnlch simpel der Karte hinzu. Dazu bestimmst du die Koordinaten des Kreismittelpunktes und den Radius. Das folgende Beispiel zeigt zudem, wie man den Kreis individuell definieren kann.
+
+```
+var circle = L.circle([51.568, 7.11], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(map);
+```
+Analog zum Marker ist es auch hier möglich einen Popup zu erstellen:
+
+```
+circle.bindPopup("Ich bin ein Popup im Nirgendswo").openPopup();
+```
+
+**Übung**:
+In Münster herscht starkes Unwetter. Im Umkreis von 20 km wird die Bevölkerung gebeten ihr Haus nicht zu verlassen. Zeige die Gefahrenzone auf der Leafletkarte an.
+
