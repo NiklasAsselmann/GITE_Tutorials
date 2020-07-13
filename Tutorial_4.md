@@ -90,3 +90,9 @@ Anschließend Leaflet JavaScript. Beachte, dass Leaflet JavaScript **nach** Leaf
       crossorigin=""
     ></script>
 ```
+
+Für die Leaflet-Karte erstellen wir ein <div> Element mit der id "map" im <body> Teil des Dokumentes, welches die Karte enthalten soll:
+
+```
+<div id="map"></div>
+```
