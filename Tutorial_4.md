@@ -41,7 +41,7 @@ Nun kommen wir zur Step-by-Step Anleitung zur Erstellung einer einfachen Karte i
 
 Zunächst bereiten wir unser HTML-Dokument vor:
 
-'''
+```
 <!DOCTYPE html>
 
 <html>
@@ -65,4 +65,4 @@ Zunächst bereiten wir unser HTML-Dokument vor:
 </body>
 
 </html>
-'''
+```
