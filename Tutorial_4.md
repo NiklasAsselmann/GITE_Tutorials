@@ -97,7 +97,7 @@ Für die Leaflet-Karte erstellen wir ein ```<div>``` Element mit der id "map" im
 <div id="map"></div>
 ```
 
-Stelle sicher, dass das ```div``` Element eine definierte Höhe hat, indem du ihn beispielsweise in CSS festlegst:
+Stelle sicher, dass das ```div``` Element eine definierte Höhe hat, indem du ihn beispielsweise in CSS festlegst. Dazu den folgenden Code zwischen den ```style``` Tags im ```head``` Teil platzieren:
 
 ```
 #map { height: 500px; }
