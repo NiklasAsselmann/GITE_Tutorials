@@ -81,7 +81,7 @@ Füge dazu in dem <head> Teil deines Dokumentes Leaflet CSS hinzu:
     />
 ```
 
-Anschließend Leaflet JavaScript. Beachte, dass Leaflet JavaScript *nach* Leaflet CSS eingebunden wird.
+Anschließend Leaflet JavaScript. Beachte, dass Leaflet JavaScript *nach* Leaflet CSS eingebunden werden muss.
 
 ```
 <script
