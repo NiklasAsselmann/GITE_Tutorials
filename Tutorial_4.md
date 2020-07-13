@@ -154,5 +154,5 @@ circle.bindPopup("Ich bin ein Popup im Nirgendswo").openPopup();
 ```
 
 **Übung**:
-In Münster herscht starkes Unwetter. Im Umkreis von 20 km wird die Bevölkerung gebeten ihr Haus nicht zu verlassen. Zeige die Gefahrenzone auf der Leafletkarte an.
+In Münster herscht starkes Unwetter. Im Umkreis von 20 km wird die Bevölkerung gebeten ihr Haus nicht zu verlassen. Zeige die Gefahrenzone auf der Leafletkarte an und gib ihr eine entsprechende Beschreibung.
 
