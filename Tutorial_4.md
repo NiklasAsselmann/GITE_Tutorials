@@ -6,7 +6,7 @@
 ## Übersicht
 
 - [1 Was ist Leaflet?](#1-Was-ist-Leaflet)
-- [2 Nutzungsgebiet von Datenvisualisierungen](#2-Nutzungsgebiet-von-Datenvisualisierungen)
+- [2 Die erste Karte mit Leaflet](#2-Die-erste-Karte-mit-Leaflet)
   * [2.1 Politik](#21-Politik)
   * [2.2 Naturwissenschaft](#22-Naturwissenschaft)
   * [2.3 Gesundheitswesen](#23-Gesundheitswesen)
@@ -32,6 +32,8 @@ Leaflet ist eine Open-Source JavaScript-Bibliothek für interaktive, nutzerfreun
 Eine Karte ist bereits mit wenigen Zeilen Code und ohne großem Vorwissen in der Programmierung erstellbar. Zudem ist Leaflet sehr einfach mit weiteren Plugins erweiterbar. In diesem Tutorial beschränken wir uns jedoch auf das einfache Erstellen von nutzerfreundlichen Karten. Wie man ein zusätzliches Plugin erstellt, welches die bereits große Anzahl an bereitgestellten Funktionen erweitert, wird nicht besprochen.
 
 Wer sich für die gebotenen Möglichkeiten und Funktionen von Leaflet interessiert kann diese in der sehr ausführlichen, aber dennoch gut strukturierten [Dokumentation](https://leafletjs.com/reference-1.6.0.html) nachlesen.
+
+## 2 Die erste Karte mit Leaflet
 
 Nun kommen wir zur Step-by-Step Anleitung zur Erstellung einer einfachen Karte in einem beliebigen Webbrowser.
 
