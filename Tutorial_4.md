@@ -102,3 +102,15 @@ Stelle sicher, dass das ```<div>``` Element eine definierte Höhe hat, indem du 
 ```
 #map { height: 500px; }
 ```
+
+Nun kannst du deine erste Karte initialisieren.
+
+Wir stellen die Ansicht auf das Zentrum von Stuttgart und bestimmen eine Zoomstufe:
+
+```
+var map = L.map('map').setView([48.775, 9.182], 13);
+```
+
+**Übung:**
+1) Finde heraus wofür die oben stehenden Zahlen stehen?
+2) Erstelle eine Karte auf dem Münster im Zentrum zu sehen ist und stelle das Zoomlevel so ein, dass die Stadt Dortmund auf der Karte zu sehen ist.
