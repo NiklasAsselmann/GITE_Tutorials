@@ -131,3 +131,6 @@ Wir können diesen Marker ganz einfach mit einem Popup beschreiben:
 ```
 marker.bindPopup("Geo 1 an der WWU").openPopup();
 ```
+**Übung:**
+1) Füge die Fußballstadien Allianz Arena (München) und Signal Iduna Park (Dortmund) der Karte als Marker hinzu.
+2) Beschreibe beide Marker, indem du Ihnen den Namen der Stadien gibst.
