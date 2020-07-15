@@ -24,8 +24,9 @@ Was genau kann JavaScript?
   - JavaScript kann HTML-Elemente ausblenden
   - JavaScript kann HTML-Elemente anzeigen
 
-
 ## 2 Das erste Script
+
+### Platzierung
 
 Um mit dem Programmieren von JavaScript anzufangen muss man als erstes wissen wo man das Script einfügt.
 Zum Einfügen eies Scripts gibt es zwei Möglichkeiten:
@@ -34,6 +35,8 @@ Zum Einfügen eies Scripts gibt es zwei Möglichkeiten:
 
 Zur Vereinfachung der Tutorial wird im folgenden anhand der ersten Möglichkeit erklärt. <br>
 Der Beste Ort zum platzieren eines JavaScripts in einem HTML-Dokument ist das Ende des Bodys.
+
+### Syntax
 
 Jetzt wo wir wissen wo ein JavaScript platziert werden muss, schauen wir uns die Syntax von JavaScript an.
 Ein wichtiges Element in JavaScript sind Variablen. Mit diesen Variable kann man hauptsächlich drei Dinge tun
@@ -52,7 +55,8 @@ Einer Variable einen Wert zuweisen
     Man kann Variablen aber nicht nur Zahlen zuweisen, sondern auch Zeichenfolgen. Diese geschieht durch das verwenden von Anführungssrtichen.
     Beispiel für zuweisung von Zeichenfolge
 
-Erste Übung
+### Erste Übung
+
   - In der ersten praktischen Übung sollst du deine eigene erste Variable deklarieren und zuweisen
   - [Link zur ersten praktischen Übung](https://www.w3schools.com/code/tryit.asp?filename=GGSDH11ZVIYV)
   - Bei richtiger Deklarierung und Zuweisung sollte es wie folgt aussehen:
