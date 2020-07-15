@@ -15,11 +15,12 @@
 
 ## 1 Was ist JavaScript?
 
-JavaScript ist die Programmiersprache von HTML und des Internets. Sie gehört neben HTML und CSS zu den drei Must-Haves für jeden Webentwickler JavaScript wird benutzt um  das Verhaltens von Webseiten zu programmieren. Ein Vorteil von JavaScript ist, dass man es nicht herunterladen muss. Es wird bereits überall automatisch ausgeführt.
+JavaScript ist die Programmiersprache von HTML und des Internets. Sie gehört neben HTML und CSS zu den drei Must-Haves für jeden Webentwickler. JavaScript wird benutzt um  das Verhaltens von Webseiten zu programmieren. Ein Vorteil von JavaScript ist, dass man es nicht herunterladen muss. Es wird bereits überall automatisch ausgeführt.
 
 Was genau kann JavaScript?
   - JavaScript kann HTML-Inhalte ändern
   - JavaScript kann HTML-Attributwerte ändern
+  - JavaScript kann HTML-Stile (CSS) ändern
   - JavaScript kann HTML-Elemente ausblenden
   - JavaScript kann HTML-Elemente anzeigen
 
@@ -30,6 +31,7 @@ Um mit dem Programmieren von JavaScript anzufangen muss man als erstes wissen wo
 Zum Einfügen eies Scripts gibt es zwei Möglichkeiten:
   1. zwischen den Script-Tags, also zwischen  <script> und </script>
   2. als einzelnde JavaScript Datei (.js), welche im HTML-Code aufgerufen wird. <br>
+
 Zur Vereinfachung der Tutorial wird im folgenden anhand der ersten Möglichkeit erklärt. <br>
 Der Beste Ort zum platzieren eines JavaScripts in einem HTML-Dokument ist das Ende des Bodys.
 
@@ -41,6 +43,7 @@ Ein wichtiges Element in JavaScript sind Variablen. Mit diesen Variable kann man
 Eine Variable deklarieren
   - Eine Variable wird deklariert durch den einfachen zusatz "var" vor ihrem Namen.
     Danach kann man ihr Werte zuweisen oder sie einen neuen Wert errechen lassen <br>
+
 Einer Variable einen Wert zuweisen
   - Hat man eine Variable deklariert, kann man ihr mit einem einfachen "=" einen Wert zuweisen. <br>
     Hier dient das Gleichzeichen als Zuweisungsoperator, um Variablen Werte zuzuweisen. <br>
