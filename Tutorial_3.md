@@ -25,6 +25,8 @@ Was genau kann JavaScript?
   - JavaScript kann HTML-Elemente ausblenden
   - JavaScript kann HTML-Elemente anzeigen
 
+---
+
 ## 2 Das erste Script
 
 ### Platzierung
@@ -83,10 +85,36 @@ Mit JavaScript kann man Daten auf 4 unterschiedliche Weisen anzeigen lassen.
 
 ### Erste Übung
 
-  - In der ersten praktischen Übung sollst du deine eigene erste Variable deklarieren, zuweisen und einmal als HTML-Inhalt anzeigen lassen und einmal als Warnfeld.
+  - In der ersten praktischen Übung sollst du deine eigene erste Variable deklarieren, zuweisen und  als HTML-Inhalt anzeigen lassen sowie als Warnfeld ausgeben lassen.
   - [Link zur ersten praktischen Übung](https://www.w3schools.com/code/tryit.asp?filename=GGY8Q98QGDTG)
   - Bei richtiger Deklarierung und Zuweisung sollte es wie folgt aussehen:
     - [Lösung HTML-Element](https://www.w3schools.com/code/tryit.asp?filename=GGY8TS2GC9K2)
     - [Lösung Warnfeld](https://www.w3schools.com/code/tryit.asp?filename=GGY8UBVGSEZY)
 
+---
+
 ## 3 Fortgeschrittende JavaScript Operationen
+
+### Datentypen
+
+Um bessere Scripts in JavaScript zu programmieren muss man als erstes die benutzen Datentypen in JavaScript kennelernen. Das besondere der Datentypen in JavaScript ist das sie dynamisch sind. Dies bedeutet, dass dieselbe Variable für verschiedene Datentypen verwendet werden kann. In JavaScript können Variablen eine Vielzahl von Datentypen enthalten. Im folgenden werden  die drei meistbenutzen Datentypen vorgestellt:
+  - Zahl
+  - Zeichenfolge
+  - Arrays
+  - Objekt
+#### Zahl
+Dieser Datentyp ist relativ selbsterklärend und wird zum Beispiel durch die Anweisung **_var x = 10_;** erreicht.
+#### Zeichenfolge
+Der nächste Datentyp ist die zeichenfolge. Sie besteht aus der Aneinandererreihung mehrere Zeichen(aber auch Zahlen) zwischen Anführungszeichen und würde beispielsweise so aussehen: **_var x ="123XYZ";_**
+#### Arrays
+Arrays sind eine Art Liste in der jeder Stelle ein bestimmter Wert zugewiesen ist. Diese Liste wird durch eckige Klammern erstellt. Ein Bespiel hierfür wäre **_var x = [10,11]_;**. Hier wäre die Nummer 10 an der stelle 0 und die 11 an Stelle 1
+#### Objekt
+Eine weiterentwicklung des Arrays ist das Object. Ein Objekt wird durch geschweifte Klammern erstellt. Hier gibt es keine Indizes sondern die gespeicherten Variablen werden als sogenannte Name:Wert-Paare gespeichert. Ein Beispiel hierfür wäre **_var x = {Vorname:"Max" , Alter:18}_**. Wie im Beispiel gesehen können in einem Objekt sowohol Zeichenketten als auch Zahlen gespeichert werden.
+
+### Zweite Übung
+- Um besseres Verständnis für die Datentypen zu bekommen sollst du in der folgenen Übung der Variable erst eine Zahl zuweisen, danach eine Zeichenkette zu guter letzt ein Objekt. Die **_typof_** Operation gibt immer den Typ der Variable aus. In diesem Fall 1) _number_, 2) _string_ 3) _object_
+- [Link zur zweiten praktischen Übung](https://www.w3schools.com/code/tryit.asp?filename=GGY07JYIBZ4J)
+- Lösung:
+  - [Zahl](https://www.w3schools.com/code/tryit.asp?filename=GGY08YQG054J)
+  - [Zeichenkette](https://www.w3schools.com/code/tryit.asp?filename=GGY004XVBHHF)
+  - [Objekt](https://www.w3schools.com/code/tryit.asp?filename=GGY0CS85X6QL)
