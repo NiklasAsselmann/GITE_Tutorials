@@ -125,16 +125,16 @@ Eine Weiterentwicklung des Arrays ist das Object. Ein Objekt wird durch geschwei
   3. Sie werden durch ein Ereigniss aufgerufen (z.B Klicken des Benutzers auf Bildschirm).
 - Mit dem Schlüsselwort "function" gefolgt vom Namen und den Parameter in Klammern wird eine Funktion definiert.
  Ein Beispiel für eine Funktion sieht so aus: <br>
-**_function name(paramter1,parameter2) { _** <br>
-  **_CODE_** <br>
+**_function name(paramter1,parameter2){_** <br>
+  **_code_** <br>
 **_}_** <br>
 Der von der Funktion auszuführende Code wird in geschweifte Klammern gesetzt.
 
 #### Rückgabefunktionen
-- Der Zweck vieler Funktionen ist das Verändern von Variablenbzw. Berechnen von Variablen. Dabei ist es von Vorteil wenn die gewünschte Funktion den errechneten Wert direkt ausgibt, damit man ihn einer Variable zuweisen kann. Diese Rückgabe erfolgt durch ein **_return_** innerhalb der geschweiften Klammern.
+- Der Zweck vieler Funktionen ist das Verändern von Variablen bzw. Berechnen von Variablen. Dabei ist es von Vorteil wenn die gewünschte Funktion den errechneten Wert direkt ausgibt, damit man ihn einer Variable zuweisen kann. Diese Rückgabe erfolgt durch ein **_return_** innerhalb der geschweiften Klammern.
 
 #### Lokale Variablen
-- Eine Besonderheit von Funktionen sind lokale Variablen. Diese Variablen heißen lokal da auf sie nur innerhalb der Funktion zugegriffen werden kann und nicht im ganzen JavaScript Codeblock.
+- Eine Besonderheit von Funktionen sind lokale Variablen. Diese Variablen heißen lokal da auf sie nur innerhalb der Funktion zugegriffen werden kann und nicht im ganzen JavaScript Dokument.
 
 ### Dritte Übung
 - Um das soeben erlernte Wissen über Funktionen zu vertiefen, ist das Ziel der dritten Übung das Erstellen der ersten eigenen Funktion.
