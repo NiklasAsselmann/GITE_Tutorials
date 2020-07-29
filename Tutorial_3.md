@@ -8,6 +8,8 @@
 - [1 Was ist JavaScript?](#1-Was-ist-Leaflet)
 - [2 Das erste Script](#2-Das-erste-Script)
 - [3 Fortgeschrittende JavaScript Operationen](#3-Fortgeschrittende-JavaScript-Operationen)
+- [3.1 Datentypen](#3.1-Datentypen)
+- [3.2 Funktionen](#3.2-Funktionen)
 
 
 
@@ -30,7 +32,6 @@ Was genau kann JavaScript?
 ## 2 Das erste Script
 
 ### Platzierung
-
 Um mit dem Programmieren von JavaScript anzufangen muss man als erstes wissen, wo man das Script einfügt.
 Zum Einfügen eines Scripts gibt es zwei Möglichkeiten:
   1. Zwischen den Script-Tags, also zwischen  **_<script>_** und **_</script>_**
@@ -44,21 +45,16 @@ Der Beste Ort zum Platzieren eines JavaScripts in einem HTML-Dokument ist das En
 Jetzt wissen wir wo ein JavaScript platziert werden muss. Nun schauen wir uns die Syntax von JavaScript an.
 Ein wichtiges Element in JavaScript sind Variablen. Mit diesen Variable kann man hauptsächlich zwei Dinge tun
   1. Sie deklarieren
-  2. Ihnen werte zuweisen 
-
-Eine Variable deklarieren
-  - Eine Variable wird deklariert durch den einfachen Zusatz **_var_** vor ihrem Namen.
+    - Eine Variable wird deklariert durch den einfachen Zusatz **_var_** vor ihrem Namen.
     Danach kann man ihr Werte zuweisen oder sie einen neuen Wert errechen lassen <br>
-
-Einer Variable einen Wert zuweisen
-  - Hat man eine Variable deklariert, kann man ihr mit einem einfachen **_=_** einen Wert zuweisen. 
+  2. Ihnen Werte zuweisen 
+    - Hat man eine Variable deklariert, kann man ihr mit einem einfachen **_=_** einen Wert zuweisen. 
     Hier dient das Gleichzeichen als Zuweisungsoperator, um Variablen Werte zuzuweisen. 
     Abgesehen von der einfachen Zuweisung einer Zahl kann eine Variable auch das Ergebniss einer JavaScript Operation sein.
     Diese kann die Summe zweier Zahlen sein aber auch das Produkt zweier anderen Variablen.
     Man kann Variablen aber nicht nur Zahlen zuweisen, dazu aber später mehr.
-
+  
 ### Java-Script Anweisungen
-
 Jetzt wo du weißt wie die Syntax von JavaScript funktioniert zeigen wir dir wie eine JavaScript Anweisung funktioniert und welche Typen von Anweisungen es gibt. JavaScript-Anweisungen können aus folgenden Dingen bestehen:
   - Werten, 
   - Operatoren 
@@ -70,12 +66,10 @@ JavaScript-Anweisungen werden durch Semikolons getrennt.
 Leerstellen sowie Zeilenumbrüche in den Anweisungen sind erlaubt.
 
 #### Zugriff auf HTML- Elemente
-
 Damit man mit JavaScript Element eines HTML-Dokuments verändern kann, bedarf es der wohl wichtigsten JavaScript-Anweisung.
 Mit der **_document.getElementById(id)_** Methode kann man HTML Dokumente ansprechen. Die ID eines HTML-Elemts ist im HTML-Dokument definiert worden.
 
 #### Anzeigemöglichkeiten in JavaScript
-
 Mit JavaScript kann man Daten auf 4 unterschiedliche Weisen anzeigen lassen. 
   - Die erste Anweisung **_innerHTML=_** kann den Inhalt des HTML-Elements ändern. Die komplette Anweisung würde dann *document.getElementById("deine Variable").innerHTML=x* heißen.
   - Die zweite Anweisung **_document.write()_** kann den Inhalt des Dokumentes ändern. Löscht aber alle vorher geladenen HTML-Elements. Deshalb wir es nur für Testzwecke genutzt. [Ein gutes Beispiel warum man es nur zum Testen benutzen sollte. Einfach auf "RUN" drücken](https://www.w3schools.com/code/tryit.asp?filename=GGY8JU3O6CW9)
@@ -83,7 +77,6 @@ Mit JavaScript kann man Daten auf 4 unterschiedliche Weisen anzeigen lassen.
   - Die vierte Anweisung **_console.log()_** schreibt den Inhalt der Methode in den Logger des Browsers. Diese Methode wird häufig zum Debugging benutz, ist aber für das Einführungstutorial erstmal irrelevant.
 
 ### Erste Übung
-
 - In der ersten praktischen Übung sollst du deine eigene erste Variable deklarieren, zuweisen und als HTML-Inhalt anzeigen lassen sowie als Warnfeld ausgeben lassen.
 - [Link zur ersten praktischen Übung](https://www.w3schools.com/code/tryit.asp?filename=GGY8Q98QGDTG)
 - Bei richtiger Deklarierung und Zuweisung sollte es wie folgt aussehen:
@@ -93,9 +86,7 @@ Mit JavaScript kann man Daten auf 4 unterschiedliche Weisen anzeigen lassen.
 ---
 
 ## 3 Fortgeschrittende JavaScript Operationen
-
 ### 3.1 Datentypen
-
 Um bessere Scripts in JavaScript zu programmieren sollte man als erstes die benutzen Datentypen in JavaScript kennelernen. Das besondere der Datentypen in JavaScript ist das sie dynamisch sind. Dies bedeutet, dass dieselbe Variable für verschiedene Datentypen verwendet werden kann. In JavaScript können Variablen eine Vielzahl von Datentypen enthalten. Im folgenden werden die meistbenutzen Datentypen vorgestellt:
   - Zahl
   - Zeichenfolge
@@ -121,11 +112,11 @@ Um besseres Verständnis für die Datentypen zu bekommen sollst du in der folgen
 
 ### 3.2 Funktionen
 
-Funktionen werden in JavaSccript dafür benutzt um Code wiederzuverwenden. Hier kann der einmalig definierte Code mehrmals mit unterschiedlichen Variablen ausgeführt werden. Funktionen werden ausgeführt wenn "etwas" sie aufruft. Das kann durch 3 Ereignisse geschehen:
+Funktionen werden in JavaScript dafür benutzt um Code wiederzuverwenden. Hier kann der einmalig definierte Code mehrmals mit unterschiedlichen Variablen ausgeführt werden. Funktionen werden ausgeführt wenn "etwas" sie aufruft. Das kann durch 3 Ereignisse geschehen:
   1. Sie werden in einem JavaScript-Block aufgerufen.
   2. Sie rufen sich selbst auf.
   3. Sie werden durch ein Ereigniss aufgerufen (z.B Klicken des Benutzers auf Bildschirm).
-- Mit dem Schlüsselwort **_function_** gefolgt vom Namen und den Parameter in Klammern wird eine Funktion definiert.
+Mit dem Schlüsselwort **_function_** gefolgt vom Namen und den Parameter in Klammern wird eine Funktion definiert. <br>
  Ein Beispiel für eine Funktion sieht so aus: <br>
 **_function name(paramter1,parameter2){<br> code <br>}_** <br>
 Der von der Funktion auszuführende Code wird in geschweifte Klammern gesetzt.
