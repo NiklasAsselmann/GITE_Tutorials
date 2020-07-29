@@ -58,8 +58,8 @@ Jetzt wo du weißt wie die Syntax von JavaScript funktioniert zeigen wir dir wie
   - Operatoren 
   - Ausdrücke
   - Schlüsselwörter 
-  - Kommentare. <br>
-  
+  - Kommentare
+<br>
 Ein JavaScript-Programm besteht meist aus mehreren JavaScript-Anweisungen, die nacheinander ausgeführt werden.
 JavaScript-Anweisungen werden durch Semikolons getrennt.
 Leerstellen sowie Zeilenumbrüche in den Anweisungen sind erlaubt.
