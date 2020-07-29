@@ -8,8 +8,8 @@
 - [1 Was ist JavaScript?](#1-Was-ist-Leaflet)
 - [2 Das erste Script](#2-Das-erste-Script)
 - [3 Fortgeschrittende JavaScript Operationen](#3-Fortgeschrittende-JavaScript-Operationen)
-- [3.1 Datentypen](#3.1-Datentypen)
-- [3.2 Funktionen](#3.2-Funktionen)
+  * [3.1 Datentypen](#31-Datentypen)
+  * [3.2 Funktionen](#32-Funktionen)
 
 
 
@@ -44,11 +44,9 @@ Der Beste Ort zum Platzieren eines JavaScripts in einem HTML-Dokument ist das En
 
 Jetzt wissen wir wo ein JavaScript platziert werden muss. Nun schauen wir uns die Syntax von JavaScript an.
 Ein wichtiges Element in JavaScript sind Variablen. Mit diesen Variable kann man hauptsächlich zwei Dinge tun
-  1. Sie deklarieren
-    - Eine Variable wird deklariert durch den einfachen Zusatz **_var_** vor ihrem Namen.
+  1. Sie deklarieren: Eine Variable wird deklariert durch den einfachen Zusatz **_var_** vor ihrem Namen.
     Danach kann man ihr Werte zuweisen oder sie einen neuen Wert errechen lassen <br>
-  2. Ihnen Werte zuweisen 
-    - Hat man eine Variable deklariert, kann man ihr mit einem einfachen **_=_** einen Wert zuweisen. 
+  2. Ihnen Werte zuweisen: Hat man eine Variable deklariert, kann man ihr mit einem einfachen **_=_** einen Wert zuweisen. 
     Hier dient das Gleichzeichen als Zuweisungsoperator, um Variablen Werte zuzuweisen. 
     Abgesehen von der einfachen Zuweisung einer Zahl kann eine Variable auch das Ergebniss einer JavaScript Operation sein.
     Diese kann die Summe zweier Zahlen sein aber auch das Produkt zweier anderen Variablen.
@@ -77,7 +75,7 @@ Mit JavaScript kann man Daten auf 4 unterschiedliche Weisen anzeigen lassen.
   - Die vierte Anweisung **_console.log()_** schreibt den Inhalt der Methode in den Logger des Browsers. Diese Methode wird häufig zum Debugging benutz, ist aber für das Einführungstutorial erstmal irrelevant.
 
 ### Erste Übung
-- In der ersten praktischen Übung sollst du deine eigene erste Variable deklarieren, zuweisen und als HTML-Inhalt anzeigen lassen sowie als Warnfeld ausgeben lassen.
+In der ersten praktischen Übung sollst du deine eigene erste Variable deklarieren, zuweisen und als HTML-Inhalt anzeigen lassen sowie als Warnfeld ausgeben lassen.
 - [Link zur ersten praktischen Übung](https://www.w3schools.com/code/tryit.asp?filename=GGY8Q98QGDTG)
 - Bei richtiger Deklarierung und Zuweisung sollte es wie folgt aussehen:
   - [Lösung HTML-Element](https://www.w3schools.com/code/tryit.asp?filename=GGY8TS2GC9K2)
@@ -115,9 +113,9 @@ Um besseres Verständnis für die Datentypen zu bekommen sollst du in der folgen
 Funktionen werden in JavaScript dafür benutzt um Code wiederzuverwenden. Hier kann der einmalig definierte Code mehrmals mit unterschiedlichen Variablen ausgeführt werden. Funktionen werden ausgeführt wenn "etwas" sie aufruft. Das kann durch 3 Ereignisse geschehen:
   1. Sie werden in einem JavaScript-Block aufgerufen.
   2. Sie rufen sich selbst auf.
-  3. Sie werden durch ein Ereigniss aufgerufen (z.B Klicken des Benutzers auf Bildschirm).
+  3. Sie werden durch ein Ereigniss aufgerufen (z.B Klicken des Benutzers auf Bildschirm). <br>
 Mit dem Schlüsselwort **_function_** gefolgt vom Namen und den Parameter in Klammern wird eine Funktion definiert. <br>
- Ein Beispiel für eine Funktion sieht so aus: <br>
+Ein Beispiel für eine Funktion sieht so aus: <br>
 **_function name(paramter1,parameter2){<br> code <br>}_** <br>
 Der von der Funktion auszuführende Code wird in geschweifte Klammern gesetzt.
 
@@ -131,4 +129,5 @@ Eine Besonderheit von Funktionen sind lokale Variablen. Diese Variablen heißen 
 Um das soeben erlernte Wissen über Funktionen zu vertiefen, ist das Ziel der dritten Übung das Erstellen der ersten eigenen Funktion.
 Die erstellte Funktion soll zwei Zahlen miteinander multiplizieren.
 - [Link zur dritten Übung](https://www.w3schools.com/code/tryit.asp?filename=GH8ITOTRV10B)
-- [Beispiellösung der dritten Übung](https://www.w3schools.com/code/tryit.asp?filename=GH8IWVLGCM14)
+- Bei richtiger Deklarierung und Aufrufen der Funktions sollte es wie folgt aussehen:
+  - [Beispiellösung der dritten Übung](https://www.w3schools.com/code/tryit.asp?filename=GH8IWVLGCM14)
