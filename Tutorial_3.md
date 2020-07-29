@@ -114,9 +114,10 @@ Funktionen werden in JavaScript dafür benutzt um Code wiederzuverwenden. Hier k
   1. Sie werden in einem JavaScript-Block aufgerufen.
   2. Sie rufen sich selbst auf.
   3. Sie werden durch ein Ereigniss aufgerufen (z.B Klicken des Benutzers auf Bildschirm). <br>
+
 Mit dem Schlüsselwort **_function_** gefolgt vom Namen und den Parameter in Klammern wird eine Funktion definiert. <br>
 Ein Beispiel für eine Funktion sieht so aus: <br>
-**_function name(paramter1,parameter2){<br> code <br>}_** <br>
+**_function name(paramter1,parameter2) {<br> code <br>}_** <br>
 Der von der Funktion auszuführende Code wird in geschweifte Klammern gesetzt.
 
 #### Rückgabefunktionen
