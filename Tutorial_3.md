@@ -114,9 +114,7 @@ Eine Weiterentwicklung des Arrays ist das Object. Ein Objekt wird durch geschwei
 - Um besseres Verständnis für die Datentypen zu bekommen sollst du in der folgenen Übung der Variable erst eine Zahl zuweisen, danach eine Zeichenkette zu guter letzt ein Objekt. Die **_typof_** Operation gibt immer den Typ der Variable aus (In JavaScript ist jedes Array vom Typ _Objekt_). In diesem Fall 1) _number_, 2) _string_ 3) _object_
 - [Link zur zweiten praktischen Übung](https://www.w3schools.com/code/tryit.asp?filename=GGY07JYIBZ4J)
 - Lösung:
-  - [Zahl](https://www.w3schools.com/code/tryit.asp?filename=GGY08YQG054J)
-  - [Zeichenkette](https://www.w3schools.com/code/tryit.asp?filename=GGY004XVBHHF)
-  - [Objekt](https://www.w3schools.com/code/tryit.asp?filename=GGY0CS85X6QL)
+  - [Zahl](https://www.w3schools.com/code/tryit.asp?filename=GGY08YQG054J),[Zeichenkette](https://www.w3schools.com/code/tryit.asp?filename=GGY004XVBHHF),[Objekt](https://www.w3schools.com/code/tryit.asp?filename=GGY0CS85X6QL)
 
 
 ### 3.2 Funktionen
