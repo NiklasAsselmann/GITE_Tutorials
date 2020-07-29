@@ -126,10 +126,10 @@ Eine Weiterentwicklung des Arrays ist das Object. Ein Objekt wird durch geschwei
   2. Sie rufen sich selbst auf.
   3. Sie werden durch ein Ereigniss aufgerufen (z.B Klicken des Benutzers auf Bildschirm).
 - Mit dem Schlüsselwort "function" gefolgt vom Namen und den Parameter in Klammern wird eine Funktion definiert.
- Ein Beispiel für eine Funktion sieht so aus: 
-**_function name(paramter1,parameter2) {
-  CODE
-}_**
+ Ein Beispiel für eine Funktion sieht so aus: <br>
+**_function name(paramter1,parameter2) { _** <br>
+  **_CODE_** <br>
+**_}_** <br>
 Der von der Funktion auszuführende Code wird in geschweifte Klammern gesetzt.
 
 #### Rückgabefunktionen
