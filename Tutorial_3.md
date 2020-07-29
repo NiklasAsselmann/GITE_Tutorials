@@ -84,11 +84,11 @@ Mit JavaScript kann man Daten auf 4 unterschiedliche Weisen anzeigen lassen.
 
 ### Erste Übung
 
-  - In der ersten praktischen Übung sollst du deine eigene erste Variable deklarieren, zuweisen und als HTML-Inhalt anzeigen lassen sowie als Warnfeld ausgeben lassen.
-  - [Link zur ersten praktischen Übung](https://www.w3schools.com/code/tryit.asp?filename=GGY8Q98QGDTG)
-  - Bei richtiger Deklarierung und Zuweisung sollte es wie folgt aussehen:
-    - [Lösung HTML-Element](https://www.w3schools.com/code/tryit.asp?filename=GGY8TS2GC9K2)
-    - [Lösung Warnfeld](https://www.w3schools.com/code/tryit.asp?filename=GGY8UBVGSEZY)
+- In der ersten praktischen Übung sollst du deine eigene erste Variable deklarieren, zuweisen und als HTML-Inhalt anzeigen lassen sowie als Warnfeld ausgeben lassen.
+- [Link zur ersten praktischen Übung](https://www.w3schools.com/code/tryit.asp?filename=GGY8Q98QGDTG)
+- Bei richtiger Deklarierung und Zuweisung sollte es wie folgt aussehen:
+  - [Lösung HTML-Element](https://www.w3schools.com/code/tryit.asp?filename=GGY8TS2GC9K2)
+  - [Lösung Warnfeld](https://www.w3schools.com/code/tryit.asp?filename=GGY8UBVGSEZY)
 
 ---
 
@@ -110,32 +110,34 @@ Arrays sind eine Art Liste in der jeder Stelle ein bestimmter Wert zugewiesen is
 #### Objekt
 Eine Weiterentwicklung des Arrays ist das Object. Ein Objekt wird durch geschweifte Klammern erstellt. Hier gibt es keine Indizes sondern die gespeicherten Variablen werden als sogenannte *Name:Wert*-Paare gespeichert. Ein Beispiel hierfür wäre **_var x = {Vorname:"Max" , Alter:18}_;**. Wie im Beispiel gesehen können in einem Objekt sowohl Zeichenketten als auch Zahlen gespeichert werden.
 
-### Zweite Übung
-- Um besseres Verständnis für die Datentypen zu bekommen sollst du in der folgenen Übung der Variable erst eine Zahl zuweisen, danach eine Zeichenkette zu guter letzt ein Objekt. Die **_typof_** Operation gibt immer den Typ der Variable aus (In JavaScript ist jedes Array vom Typ _Objekt_). In diesem Fall 1) _number_, 2) _string_ 3) _object_
+#### Datentyp-Übung
+Um besseres Verständnis für die Datentypen zu bekommen sollst du in der folgenen Übung der Variable erst eine Zahl zuweisen, danach eine Zeichenkette zu guter letzt ein Objekt. Die **_typof_** Operation gibt immer den Typ der Variable aus (In JavaScript ist jedes Array vom Typ _Objekt_). In diesem Fall 1) _number_, 2) _string_ 3) _object_
 - [Link zur zweiten praktischen Übung](https://www.w3schools.com/code/tryit.asp?filename=GGY07JYIBZ4J)
-- Lösung:
-  - [Zahl](https://www.w3schools.com/code/tryit.asp?filename=GGY08YQG054J),[Zeichenkette](https://www.w3schools.com/code/tryit.asp?filename=GGY004XVBHHF),[Objekt](https://www.w3schools.com/code/tryit.asp?filename=GGY0CS85X6QL)
+- Bei richtiger Deklarierung sowie dem richtigen Benutzen der "type-of"-Operation sollte es wie folgt aussehen:
+  - [Zahl](https://www.w3schools.com/code/tryit.asp?filename=GGY08YQG054J)
+  - [Zeichenkette](https://www.w3schools.com/code/tryit.asp?filename=GGY004XVBHHF)
+  - [Objekt](https://www.w3schools.com/code/tryit.asp?filename=GGY0CS85X6QL)
 
 
 ### 3.2 Funktionen
 
-- Funktionen werden in JavaSccript dafür benutzt um Code wiederzuverwenden. Hier kann der einmalig definierte Code mehrmals mit unterschiedlichen Variablen ausgeführt werden. Funktionen werden ausgeführt wenn "etwas" sie aufruft. Das kann durch 3 Ereignisse geschehen:
+Funktionen werden in JavaSccript dafür benutzt um Code wiederzuverwenden. Hier kann der einmalig definierte Code mehrmals mit unterschiedlichen Variablen ausgeführt werden. Funktionen werden ausgeführt wenn "etwas" sie aufruft. Das kann durch 3 Ereignisse geschehen:
   1. Sie werden in einem JavaScript-Block aufgerufen.
   2. Sie rufen sich selbst auf.
   3. Sie werden durch ein Ereigniss aufgerufen (z.B Klicken des Benutzers auf Bildschirm).
-- Mit dem Schlüsselwort "function" gefolgt vom Namen und den Parameter in Klammern wird eine Funktion definiert.
+- Mit dem Schlüsselwort **_function_** gefolgt vom Namen und den Parameter in Klammern wird eine Funktion definiert.
  Ein Beispiel für eine Funktion sieht so aus: <br>
 **_function name(paramter1,parameter2){<br> code <br>}_** <br>
 Der von der Funktion auszuführende Code wird in geschweifte Klammern gesetzt.
 
 #### Rückgabefunktionen
-- Der Zweck vieler Funktionen ist das Verändern von Variablen bzw. Berechnen von Variablen. Dabei ist es von Vorteil wenn die gewünschte Funktion den errechneten Wert direkt ausgibt, damit man ihn einer Variable zuweisen kann. Diese Rückgabe erfolgt durch ein **_return_** innerhalb der geschweiften Klammern.
+Der Zweck vieler Funktionen ist das Verändern von Variablen bzw. Berechnen von Variablen. Dabei ist es von Vorteil wenn die gewünschte Funktion den errechneten Wert direkt ausgibt, damit man ihn einer Variable zuweisen kann. Diese Rückgabe erfolgt durch ein **_return_** innerhalb der geschweiften Klammern.
 
 #### Lokale Variablen
-- Eine Besonderheit von Funktionen sind lokale Variablen. Diese Variablen heißen lokal da auf sie nur innerhalb der Funktion zugegriffen werden kann und nicht im ganzen JavaScript Dokument.
+Eine Besonderheit von Funktionen sind lokale Variablen. Diese Variablen heißen lokal da auf sie nur innerhalb der Funktion zugegriffen werden kann und nicht im ganzen JavaScript Dokument.
 
-### Dritte Übung
-- Um das soeben erlernte Wissen über Funktionen zu vertiefen, ist das Ziel der dritten Übung das Erstellen der ersten eigenen Funktion.
-- Die erstellte Funktion soll zwei Zahlen miteinander multiplizieren.
+#### Funktionen-Übung
+Um das soeben erlernte Wissen über Funktionen zu vertiefen, ist das Ziel der dritten Übung das Erstellen der ersten eigenen Funktion.
+Die erstellte Funktion soll zwei Zahlen miteinander multiplizieren.
 - [Link zur dritten Übung](https://www.w3schools.com/code/tryit.asp?filename=GH8ITOTRV10B)
 - [Beispiellösung der dritten Übung](https://www.w3schools.com/code/tryit.asp?filename=GH8IWVLGCM14)
