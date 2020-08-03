@@ -133,3 +133,41 @@ Die erstellte Funktion soll zwei Zahlen miteinander multiplizieren.
 - [Link zur dritten Übung](https://www.w3schools.com/code/tryit.asp?filename=GH8ITOTRV10B)
 - Bei richtiger Deklarierung und Aufrufen der Funktions sollte es wie folgt aussehen:
   - [Beispiellösung der dritten Übung](https://www.w3schools.com/code/tryit.asp?filename=GH8IWVLGCM14)
+
+### 3.3 Schleifen
+Falls man in JavaScript denselben Code mit unterschiedlichen Variablen aufrufen will, eigenen sich Schleifen am besten. In JavaScript gibt es 2 unterschiedliche Typen von Schleifen:
+  1. for-Schleifen
+  2. while-Schleifen
+
+#### For-Schleifen
+In einer for-Schleife wird der Code-Block eine bestimme Anzahl von malen durchlaufen. Die Syntax einer For-Schleife ist die folgende: <br>
+**_for (statement 1; statement 2; statement 3) {<br> code <br>}_** <br>
+Statement 1 wird (einmalig) vor der Ausführung des Codeblocks ausgeführt. Hier wird eine Variable festgelegt. <br>
+Statement 2 definiert die Bedingung für die Ausführung des Codeblocks. <br>
+Statement 3 wird (jedes Mal) ausgeführt, nachdem der Codeblock ausgeführt wurde. Hier wird ein Wert erhöht, der die Schleife (beim erneuten Aufrufen) zum Abbrechen bringen kann.
+Ausgehend von dieser Struktur gibt es zwei Variationen der for-Schleife
+  1. For/In-Schleife
+  2. For/Of-Schleife
+
+##### For/In Schleife
+Die For/In-Schleife durchläuft die Eigenschaften eines Objekts. Ein Beispiel dafür wäre folgendes: <br>
+[For/In-Schleife Beispiel](https://www.w3schools.com/code/tryit.asp?filename=GHDY8FICJEE1)
+
+#### For/Of-Schleife
+Die For/Of-Schleife  durchläuft die Werte eines iterierbaren Objekts. Ein Beispiel dafür wäre folgendes: <br>
+[For/Of-Schleife Beispiel](https://www.w3schools.com/code/tryit.asp?filename=GHDYD92GU9HQ)
+
+#### While-Schleifen
+Die While-Schleife durchläuft einen Codeblock, solange eine bestimmte Bedingung erfüllt ist. Die Syntax einer While-Schleife ist die folgende: <br>
+**_while (condition) {<br> code <br>}_** <br>
+Die Kondition welche die Schleife zum Abbrechen führt muss im Code verändert werden , dami die SChleife nicht unendlich weiterläuft und so den Browser zum Absturz bringt. Dies geschieht häufig durch eine vorher deklarierte Variable, welche im Schleifen-Code erhöht wird.
+
+##### While/Do-Schleife
+Eine Variation der While-Schleife ist die While/Do-Schleife. Diese Schleife führt den Codeblock einmal aus, bevor sie überprüft, ob die Bedingung erfüllt ist, und wiederholt die Schleife, solange die Bedingung erfüllt ist. Ein Beispiel dafür wäre folgendes: <br>
+[While/Do Schleife Beispiel](https://www.w3schools.com/code/tryit.asp?filename=GHDYMHFLZ7YZ)
+
+#### Schleifen-Übung
+Um das Erstellen von Schleifen zu lernen soll in dieser Übung die erste eigene For-Schleife sowie While Schleife erstellt werden.
+Die Schleife soll nacheinander die Zahlen 1 bis 25 ausgeben. Benutzt **_ text +=i+",";_** im Code.
+- [Link zur Schleifen-Übung](https://www.w3schools.com/code/tryit.asp?filename=GHDYYKX6C2BE)
+- Lösungen: [While-Schleife](https://www.w3schools.com/code/tryit.asp?filename=GHDZ4TCB99X2), [For-Schleife](https://www.w3schools.com/code/tryit.asp?filename=GHDZ83JPBAFH)
