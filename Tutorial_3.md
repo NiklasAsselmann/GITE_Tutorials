@@ -10,6 +10,7 @@
 - [3 Fortgeschrittende JavaScript Operationen](#3-Fortgeschrittende-JavaScript-Operationen)
   * [3.1 Datentypen](#31-Datentypen)
   * [3.2 Funktionen](#32-Funktionen)
+  * [3.3 Schleifen](#33-Schleifen)
 
 
 
