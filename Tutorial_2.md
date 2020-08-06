@@ -32,6 +32,8 @@ Reviewed: No
 
 **Hint:** Index.html is the *root/ home* page of a website for example *Http://www.example.com l*oads the index.html file. While  *[Http://www.example.com/about.html](http://www.example.com/about.html)  l*oads the about.html file.
 
+<p align="center"><img src="https://i.imgur.com/AU9JUdS.gif" height="500" alt="alt text" title="headings demo"></p>
+
 **Tag Syntax**
 
 ```html
@@ -46,6 +48,9 @@ Reviewed: No
 - Normally come in pairs(start and end tag)
 - End tag is usually the same but with forward slash
 - Some tags close themselves
+
+<p align="center"><img src="https://i.imgur.com/ieTqcVI.gif" height="500" alt="alt text" title="basics demo"></p>
+<p align="center"><img src="https://i.imgur.com/IHl3e5y.gif" height="500" alt="alt text" title="basics demo"></p>
 
 # HTML Elements
 
@@ -169,6 +174,8 @@ The HTML <strong> element defines text with strong importance. The content insid
 <strong>This text is important!</strong>
 ```
 
+<p align="center"><img src="https://i.imgur.com/cPZazIh.gif" height="500" alt="alt text" title="bold demo"></p>
+
 # HTML `<i>` and `<em>` Elements
 
 The HTML `<i>` element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.
@@ -179,6 +186,8 @@ The HTML `<i>` element defines a part of text in an alternate voice or mood. T
 <i>This text is italic</i>
 ```
 
+<p align="center"><img src="https://i.imgur.com/F9lYuo7.gif" height="500" alt="alt text" title="italic demo"></p>
+
 The HTML `<em>` element defines emphasized text. The content inside is typically displayed in italic.
 
 ```html
@@ -186,6 +195,8 @@ The HTML `<em>` element defines emphasized text. The content inside is typical
 ```
 
 **Hint:** A screen reader will pronounce the words in `<em>` with an emphasis, using verbal stress.
+
+<p align="center"><img src="https://i.imgur.com/GdyMJIk.gif" height="500" alt="alt text" title="em demo"></p>
 
 # HTML `<small>` Element
 
@@ -227,6 +238,7 @@ The CSS `background-color` property defines the background color for an HTML e
 
 </body>
 ```
+
 <p align="center"><img src="https://i.imgur.com/V27kcGG.gif" height="500" alt="alt text" title="styles demo"></p>
 
 # Text Color
@@ -237,6 +249,8 @@ The CSS `color` property defines the text color for an HTML element:
 <h1 style="color:blue;">This is a heading</h1>
 <p style="color:red;">This is a paragraph.</p>
 ```
+
+<p align="center"><img src="https://i.imgur.com/B7oszzu.gif" height="500" alt="alt text" title="styles demo"></p>
 
 # Fonts
 
