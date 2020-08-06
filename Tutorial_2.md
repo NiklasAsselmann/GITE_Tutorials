@@ -97,6 +97,7 @@ HTML headings are defined with the `<h1>` to `<h6>` tags.
 <h5>This is heading 5</h5>
 <h6>This is heading 6</h6>
 ```
+<p align="center"><img src="https://i.imgur.com/gQChqlz.gif" height="500" alt="alt text" title="headings demo"></p>
 
 # HTML Paragraphs
 
@@ -106,6 +107,7 @@ HTML paragraphs are defined with the `<p>` tag:
 <p>This is a paragraph.</p>
 <p>This is another paragraph.</p>
 ```
+<p align="center"><img src="https://i.imgur.com/BTcJJGo.gif" height="500" alt="alt text" title="paragraphs demo"></p>
 
 # HTML Links
 
@@ -114,6 +116,7 @@ HTML links are defined with the `<a>` tag, and the link's destination is speci
 ```html
 <a href="https://www.google.com">google</a>
 ```
+
 
 **Hint:** Attributes are used to provide additional information about HTML elements.
 
@@ -127,6 +130,8 @@ The source file (`src`), alternative text (`alt`), `width`, and `height` are 
 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google" width="104" height="142">
 
 ```
+
+<p align="center"><img src="https://i.imgur.com/5IpzvW1.gif" height="500" alt="alt text" title="images demo"></p>
 
 # HTML Attributes
 
@@ -189,7 +194,7 @@ The HTML `<small>` element defines smaller text:
 ```html
 <small>This is some smaller text.</small>
 ```
-<p align="center"><img src="https://i.imgur.com/LJG8Dlt.gif" height="500" alt="alt text" title="demo"></p>
+<p align="center"><img src="https://i.imgur.com/LJG8Dlt.gif" height="500" alt="alt text" title="small demo"></p>
 
 # HTML `<del>` Element
 
@@ -198,6 +203,7 @@ The HTML `<del>` element defines text that has been deleted from a document. B
 ```html
 <p>My favorite color is <del>blue</del> red.</p>
 ```
+<p align="center"><img src="https://i.imgur.com/vO9EXnV.gif" height="500" alt="alt text" title="delete demo"></p>
 
 ## HTML Styles
 
@@ -221,6 +227,7 @@ The CSS `background-color` property defines the background color for an HTML e
 
 </body>
 ```
+<p align="center"><img src="https://i.imgur.com/V27kcGG.gif" height="500" alt="alt text" title="styles demo"></p>
 
 # Text Color
 
@@ -248,6 +255,9 @@ The CSS `text-align` property defines the horizontal text alignment for an HTM
 <h1 style="text-align:center;">Centered Heading</h1>
 <p style="text-align:center;">Centered paragraph.</p>
 ```
+
+<p align="center"><img src="https://i.imgur.com/RN7GVXV.gif" height="500" alt="alt text" title="styles demo"></p>
+
 
 # LISTS
 
