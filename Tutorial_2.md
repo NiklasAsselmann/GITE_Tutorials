@@ -189,7 +189,7 @@ The HTML `<small>` element defines smaller text:
 ```html
 <small>This is some smaller text.</small>
 ```
-[Imgur](https://i.imgur.com/LJG8Dlt.gifv)
+<p align="center"><img src="https://i.imgur.com/LJG8Dlt.gif" height="500" alt="alt text" title="demo"></p>
 
 # HTML `<del>` Element
 
