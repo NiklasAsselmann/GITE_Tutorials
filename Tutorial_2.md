@@ -114,6 +114,11 @@ HTML paragraphs are defined with the `<p>` tag:
 ```
 <p align="center"><img src="https://i.imgur.com/BTcJJGo.gif" height="500" alt="alt text" title="paragraphs demo"></p>
 
+# Exercise :
+create an Html page that looks the same like in the following example applying what you have learned Untill now.
+
+<p align="center"><img src="https://www.dummies.com/wp-content/uploads/280295.image0.jpg" height="500" alt="alt text" title="exercise1"></p>
+
 # HTML Links
 
 HTML links are defined with the `<a>` tag, and the link's destination is specified in the `href` attribute.
@@ -271,6 +276,11 @@ The CSS `text-align` property defines the horizontal text alignment for an HTM
 ```
 
 <p align="center"><img src="https://i.imgur.com/RN7GVXV.gif" height="500" alt="alt text" title="styles demo"></p>
+
+# Exercise :
+create an Html page that looks the same like in the following example applying what you have learned Untill now.
+
+<p align="center"><img src="https://i.imgur.com/y5jcJEz.png" height="500" alt="alt text" title="exercise 2"></p>
 
 
 # LISTS
