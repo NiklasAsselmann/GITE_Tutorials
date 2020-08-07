@@ -1,7 +1,6 @@
 # Html and CSS
 
 Created: Jun 23, 2020 5:47 PM
-Reviewed: No
 
 ### What We Need To Start?
 
@@ -572,3 +571,8 @@ h2 {
 ```
 
 This leaves a 20-pixel width space around the secondary header and the header itself is fat from the 40-pixel width padding.
+
+# Exercise :
+create an Html page that looks the same like in the following example applying what you have learned Untill now.
+
+<p align="center"><img src="https://i.imgur.com/xWsiIQP.png" height="500" alt="alt text" title="exercise 3"></p>
