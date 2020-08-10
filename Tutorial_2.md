@@ -31,13 +31,6 @@ Created: Jun 23, 2020 5:47 PM
 
 **Hint:** Index.html is the *root/ home* page of a website for example *Http://www.example.com l*oads the index.html file. While  *[Http://www.example.com/about.html](http://www.example.com/about.html)  l*oads the about.html file.
 
-**Steps to create an html file**
-- make a new text file
-- change its extension to __.html__
-- open it using text editor
-- add the html syntax.
-
-<p align="center"><img src="https://i.imgur.com/AU9JUdS.gif" height="500" alt="alt text" title="headings demo"></p>
 
 **Tag Syntax**
 
@@ -54,6 +47,14 @@ Created: Jun 23, 2020 5:47 PM
 - End tag is usually the same but with forward slash
 - Some tags close themselves
 
+**Steps to create an html file**
+- make a new text file
+- change its extension to __.html__
+- open it using text editor
+- add the html syntax.
+- save and open the file in a browser
+
+<p align="center"><img src="https://i.imgur.com/AU9JUdS.gif" height="500" alt="alt text" title="headings demo"></p>
 <p align="center"><img src="https://i.imgur.com/ieTqcVI.gif" height="500" alt="alt text" title="basics demo"></p>
 <p align="center"><img src="https://i.imgur.com/IHl3e5y.gif" height="500" alt="alt text" title="basics demo"></p>
 
