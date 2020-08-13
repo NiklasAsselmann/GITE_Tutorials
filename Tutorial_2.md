@@ -1,15 +1,15 @@
 # Html and CSS
+**Autors**: Niklas Aßelmann, Mohammed Abdelal und Sulaxan Somaskantharajan
 
-Created: Jun 23, 2020 5:47 PM
 
-### What We Need To Start?
+### Was brauchen wir zum Start?
 
-- A Web Browser, any one of the following browsers:
+- Einen Webbrowser, einen der folgenden:
     - Google Chrome
     - Mozilla Firefox
     - Safari
     - Edge
-- A Text Editor, any one of the following Text editors
+- Einen Texteditor, einen der folgenden:
     - Sublime Text
     - Atom.io
     - Visual Studio
@@ -17,19 +17,20 @@ Created: Jun 23, 2020 5:47 PM
     - Notpad++(Windows)
     - TextMate(Mac)
 
-## What is HTML ?
+## Was ist HTML ?
 
 - **Hyper Text Markup Language**
-- **Not** Programming Language
-- Markup for creating Webpages / documents
+- **Keine** Programmiersprache
+- Markup für das ERstellen von Websiten und Dokumenten
 
-### Creating an HTML file
+### Erstellen einer HTML Datei
 
-- Does Not need a server
-- File must end with .html extension
-- Runs in web browser
+- Es wird kein Server benötigt
+- Die Daten muss mit .html enden
+- Läuft im Webbrowser
 
-**Hint:** Index.html is the *root/ home* page of a website for example *Http://www.example.com l*oads the index.html file. While  *[Http://www.example.com/about.html](http://www.example.com/about.html)  l*oads the about.html file.
+**Hinweis:** Index.html ist die *root/ home* Seite der Website, zum Beispiel: *Http://www.example.com* lädt die index.html Datei.
+ Während  *[Http://www.example.com/about.html](http://www.example.com/about.html)  * lädt die about.html Datei.
 
 
 **Tag Syntax**
@@ -37,110 +38,110 @@ Created: Jun 23, 2020 5:47 PM
 ```html
 <tagename>content</tagname>
 <h1>About Us</h1>
-<p>This is a paragraph</p>
-<br/> (self closing)
-<br>  (Fine in HTML5)
+<p>Das ist ein Absatz</p>
+<br/> (sebst schließend)
+<br>  (Okay in HTML5)
 ```
 
-- Element names surrounded by angle brackets
-- Normally come in pairs(start and end tag)
-- End tag is usually the same but with forward slash
-- Some tags close themselves
+- Elementnamen in spitzen Klammern
+- Normalerweise in Paaren vorhanden ("start" und "end" tag)
+- Das End-Tag ist normalerweise das gleiche, jedoch mit einem Schrägstrich
+- Einige Tags schließen sich selbst
 
-**Steps to create an html file**
-- make a new text file
-- change its extension to __.html__
-- open it using text editor
-- add the html syntax.
-- save and open the file in a browser
+**Die Schritte zum Erstellen einer HTML-Datei**
+- Erstellen Sie eine neue Textdatei
+- Ändere die Endung zu __.html__
+- Öffne sie im Text editor
+- Füge die HTML Synatax zu
+- Speichern sie und öfffne sie danach im Browser
 
 <p align="center"><img src="https://i.imgur.com/AU9JUdS.gif" height="500" alt="alt text" title="headings demo"></p>
 <p align="center"><img src="https://i.imgur.com/ieTqcVI.gif" height="500" alt="alt text" title="basics demo"></p>
 <p align="center"><img src="https://i.imgur.com/IHl3e5y.gif" height="500" alt="alt text" title="basics demo"></p>
 
-# HTML Elements
+# HTML Elemente
 
-HTML elements can be nested (this means that elements can contain other elements).
+HTML-Elemente können verschachtelt sein (dies bedeutet, dass Elemente andere Elemente enthalten können).
 
-All HTML documents consist of nested HTML elements.
+Alle HTML-Dokumente bestehen aus verschachtelten HTML-Elementen
 
-The following example is a basic HTML Document In its simplest form, it contains four HTML elements (`<html>`, `<body>`, `<h1>` and `<p>`):
+Das folgende Beispiel ist ein einfaches HTML-Dokument. In seiner einfachsten Form enthält es vier HTML-Elemente (`<html>`, `<body>`, `<h1>` and `<p>`):
 
 ```html
 <!DOCTYPE html>
 <html>
 		<head>
-				<title>This is document title</title>
+				<title>Das hier ist der Titel des Dokuments</title>
 		</head>
 		<body>
-				<h1>This is a heading</h1>
-				<p>Document content goes here.....</p>
-				<p>Document content goes here.....</p>
+				<h1>Das hier ist eine Überschrift</h1>
+				<p>Hier kommt der Inhalt hin.....</p>
+				<p>Hier kommt der Inhalt hin.....</p>
 		</body>
 </html>
 ```
 
-- The `<!DOCTYPE html>` declaration defines that this document is an HTML5 document
-- The `<html>` element is the root element of an HTML page
-- The `<head>` element contains meta information about the HTML page
-- The `<title>` element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
-- The `<body>` element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
-- The `<h1>` element defines a large heading
-- The `<p>` element defines a paragraph
+- Die`<!DOCTYPE html>` Deklaration definiert, dass dieses Dokument ein HTML5-Dokument ist
+- Das`<html>` Element ist das Stammelement einer HTML-Seite
+- Das`<head>`Element enthält Metadaten zur HTML-Seite
+- Das `<title>` Element gibt einen Titel für die HTML-Seite an (der in der Titelleiste des Browsers oder auf der Registerkarte der Seite angezeigt wird).
+- Das`<body>` Das Element definiert den Hauptteil des Dokuments und ist ein Container für alle sichtbaren Inhalte wie Überschriften, Absätze, Bilder, Hyperlinks, Tabellen, Listen usw.
+- Das`<h1>` Element definiert eine große Überschrift
+- Das `<p>` Element definiert einen Absatz
 
-# The <!DOCTYPE> Declaration
+# Die <!DOCTYPE> Deklaration
 
-The `<!DOCTYPE>` declaration represents the document type, and helps browsers to display web pages correctly.
+Die`<!DOCTYPE>` Deklaration stellt den Dokumenttyp dar und hilft Browsern, Webseiten korrekt anzuzeigen.
 
-It must only appear once, at the top of the page (before any HTML tags).
+Es darf nur einmal oben auf der Seite angezeigt werden (vor HTML-Tags).
 
-# HTML Headings
+# HTML Überschriften
 
-HTML headings are defined with the `<h1>` to `<h6>` tags.
+HTML Überschriften sind definiert mit den Tags `<h1>`bis`<h6>`.
 
-`<h1>` defines the most important heading. `<h6>` defines the least important heading:
+`<h1>` definiert die wichtigste Überschrift. `<h6>` definiert die am wenigsten wichtige Überschrift:
 
 ```html
-<h1>This is heading 1</h1>
-<h2>This is heading 2</h2>
-<h3>This is heading 3</h3>
-<h4>This is heading 4</h4>
-<h5>This is heading 5</h5>
-<h6>This is heading 6</h6>
+<h1>Überschrift 1</h1>
+<h2>Überschrift 2</h2>
+<h3>Überschrift 3</h3>
+<h4>Überschrift 4</h4>
+<h5>Überschrift 5</h5>
+<h6>Überschrift 6</h6>
 ```
 <p align="center"><img src="https://i.imgur.com/gQChqlz.gif" height="500" alt="alt text" title="headings demo"></p>
 
-# HTML Paragraphs
+# HTML Absätze
 
-HTML paragraphs are defined with the `<p>` tag:
+HTML Absätze sind mit dem Tag `<p>` definiert:
 
 ```html
-<p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
+<p>Das ist ein Absatz</p>
+<p>Das ist ein weiterer Absatz</p>
 ```
 <p align="center"><img src="https://i.imgur.com/BTcJJGo.gif" height="500" alt="alt text" title="paragraphs demo"></p>
 
-# Exercise :
-create an Html page that looks the same like in the following example applying what you have learned Untill now.
+# Übung :
+Erstellen Sie eine HTML-Seite, die genauso aussieht wie das, was Sie bisher gelernt haben.
 
 <p align="center"><img src="https://www.dummies.com/wp-content/uploads/280295.image0.jpg" height="500" alt="alt text" title="exercise1"></p>
 
 # HTML Links
 
-HTML links are defined with the `<a>` tag, and the link's destination is specified in the `href` attribute.
+HTML links sind mit dem  Tag `<a>` definiert, und das Ziel des Links wird im Attribut `href` angegeben.
 
 ```html
 <a href="https://www.google.com">google</a>
 ```
 
 
-**Hint:** Attributes are used to provide additional information about HTML elements.
+**Hinweis:** Attribute werden verwendet, um zusätzliche Informationen zu HTML-Elementen bereitzustellen.
 
-# HTML Images
+# HTML Bilder
 
-HTML images are defined with the `<img>` tag.
+HTML Bilder sind mit dem Tag `<img>`definiert.
 
-The source file (`src`), alternative text (`alt`), `width`, and `height` are provided as attributes:
+Die Quelldatei (`src`), der alternative Text (` alt`), `width` und` height` werden als Attribute bereitgestellt:
 
 ```html
 <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google" width="104" height="142">
@@ -149,103 +150,103 @@ The source file (`src`), alternative text (`alt`), `width`, and `height` are 
 
 <p align="center"><img src="https://i.imgur.com/5IpzvW1.gif" height="500" alt="alt text" title="images demo"></p>
 
-# HTML Attributes
+# HTML Attribute
 
-- All HTML elements can have **attributes**
-- Attributes provide **additional information** about elements
-- Attributes are always specified in **the start tag**
-- Attributes usually come in name/value pairs like: **name="value"**
+- Alle HTML-Elemente können **Attribute** haben
+- Attribute liefern **zusätzliche Informationen** zu Elementen
+- Attribute werden immer im **Start-Tag** angegeben
+- Attribute kommen normalerweise in Name / Wert-Paaren wie: **name = "value"**
 
-# HTML Formatting Elements
+# HTML Formatierungselemente
 
-Formatting elements were designed to display special types of text:
+Formatierungselemente wurden entwickelt, um spezielle Textarten anzuzeigen:
 
-- `<b>` - Bold text
-- `<strong>` - Important text
-- `<i>` - Italic text
-- `<em>` - Emphasized text
-- `<mark>` - Marked text
-- `<small>` - Smaller text
-- `<del>` - Deleted text
-- `<ins>` - Inserted text
-- `<sub>` - Subscript text
-- `<sup>` - Superscript text
+- `<b>` - fett gedruckten Text
+- `<strong>` - wichtiger Text
+- `<i>` - Italic Text
+- `<em>` - Hervorgehobener Text
+- `<mark>` - Markierter Text
+- `<small>` - Kleinerer Text
+- `<del>` - gelöschter Text
+- `<ins>` - Eingefügter Text
+- `<sub>` - Tiefgestellter Text
+- `<sup>` - Hochgestellter Text
 
-# HTML `<b>` and `<strong>` Elements
+# HTML `<b>` and `<strong>` Elemente
 
-The HTML `<b>` element defines bold text, without any extra importance.
+Das HTML-Element <b> definiert fett gedruckten Text ohne zusätzliche Bedeutung.
 
 ```html
-<b>This text is bold</b>
+<b>Dieser Text ist fett gedruckt</b>
 ```
 
-The HTML <strong> element defines text with strong importance. The content inside is typically displayed in bold.
+Das HTML <strong> -Element definiert Text mit hoher Bedeutung. Der darin enthaltene Inhalt wird normalerweise fett angezeigt.
 
 ```html
-<strong>This text is important!</strong>
+<strong>Dieser Texte ist wichtig</strong>
 ```
 
 <p align="center"><img src="https://i.imgur.com/cPZazIh.gif" height="500" alt="alt text" title="bold demo"></p>
 
-# HTML `<i>` and `<em>` Elements
+# HTML `<i>` and `<em>` Elemente
 
-The HTML `<i>` element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.
+Das HTML-Element `<i>` definiert einen Teil des Textes in einer anderen Stimme oder Stimmung. Der Inhalt wird normalerweise kursiv angezeigt.
 
-**Hint:** The `<i>` tag is often used to indicate a technical term, a phrase from another language, a thought, a ship name, etc.
+**Hinweis:** Das `<i>` -Tag wird häufig verwendet, um einen technischen Begriff, eine Phrase aus einer anderen Sprache, einen Gedanken, einen Schiffsnamen usw. anzugeben.
 
 ```html
-<i>This text is italic</i>
+<i>Dieser Texte ist kursiv</i>
 ```
 
 <p align="center"><img src="https://i.imgur.com/F9lYuo7.gif" height="500" alt="alt text" title="italic demo"></p>
 
-The HTML `<em>` element defines emphasized text. The content inside is typically displayed in italic.
+Das HTML-Element `<em>` definiert hervorgehobenen Text. Der Inhalt wird normalerweise kursiv angezeigt.
 
 ```html
-<em>This text is emphasized</em>
+<em>Dieser Texte ist hervorgehobenen</em>
 ```
 
-**Hint:** A screen reader will pronounce the words in `<em>` with an emphasis, using verbal stress.
+**Hinweis:** Ein Bildschirmleser spricht die Wörter in `<em>` mit einer bestimmten Betonung aus.
 
 <p align="center"><img src="https://i.imgur.com/GdyMJIk.gif" height="500" alt="alt text" title="em demo"></p>
 
 # HTML `<small>` Element
 
-The HTML `<small>` element defines smaller text:
+Das HTML-Element `<small>` definiert kleineren Text:
 
 ```html
-<small>This is some smaller text.</small>
+<small>Dieser Text ist klein</small>
 ```
 <p align="center"><img src="https://i.imgur.com/LJG8Dlt.gif" height="500" alt="alt text" title="small demo"></p>
 
 # HTML `<del>` Element
 
-The HTML `<del>` element defines text that has been deleted from a document. Browsers will usually strike a line through deleted text:
+Das HTML-Element `<del>` Element definiert Text, der aus einem Dokument gelöscht wurde. Browser streichen normalerweise eine Zeile durch gelöschten Text:
 
 ```html
-<p>My favorite color is <del>blue</del> red.</p>
+<p>Meine Lieblinsfarbe <del>Blau</del> Rot.</p>
 ```
 <p align="center"><img src="https://i.imgur.com/vO9EXnV.gif" height="500" alt="alt text" title="delete demo"></p>
 
 ## HTML Styles
 
-The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
+Das HTML-Stilattribut wird verwendet, um einem Element Stile hinzuzufügen, z. B. Farbe, Schriftart, Größe und mehr.
 
-The HTML style attribute has the following syntax:
+Das HTML-Stilattribut hat die folgende Syntax:
 
 ```html
 <tagname style="property:value;">
 ```
 
-# Background Color
+# Hintergrund Farbe
 
-The CSS `background-color` property defines the background color for an HTML element.
+Die CSS-Eigenschaft `background-color` definiert die Hintergrundfarbe für ein HTML-Element.
 
 ```html
 <body style="background-color:powderblue;">
 
-<h1>This is a heading</h1>
-<p>This is a paragraph.</p>
+<h1>Das ist eine Überschrift</h1>
+<p>Das ist ein Absatz</p>
 
 </body>
 ```
@@ -254,47 +255,47 @@ The CSS `background-color` property defines the background color for an HTML e
 
 # Text Color
 
-The CSS `color` property defines the text color for an HTML element:
+Die CSS-Eigenschaft `color` definiert die Textfarbe für ein HTML-Element:
 
 ```html
-<h1 style="color:blue;">This is a heading</h1>
-<p style="color:red;">This is a paragraph.</p>
+<h1 style="color:blue;">Das ist eine Überschrift</h1>
+<p style="color:red;">Das ist ein Absatz</p>
 ```
 
 <p align="center"><img src="https://i.imgur.com/B7oszzu.gif" height="500" alt="alt text" title="styles demo"></p>
 
 # Fonts
 
-The CSS `font-family` property defines the font to be used for an HTML element:
+Die CSS-Eigenschaft `font-family` definiert die Schriftart, die für ein HTML-Element verwendet werden soll:
 
 ```html
-<h1 style="font-family:verdana;">This is a heading</h1>
-<p style="font-family:courier;">This is a paragraph.</p>
+<h1 style="font-family:verdana;">Das ist eine Überschrift</h1>
+<p style="font-family:courier;">Das ist ein Absatz</p>
 ```
 
-# **Text Alignment**
+# **Text Ausrichtung**
 
-The CSS `text-align` property defines the horizontal text alignment for an HTML element:
+Die CSS-Eigenschaft `text-align` definiert die horizontale Textausrichtung für ein HTML-Element:
 
 ```html
-<h1 style="text-align:center;">Centered Heading</h1>
-<p style="text-align:center;">Centered paragraph.</p>
+<h1 style="text-align:center;">Zentrierte Überschrift</h1>
+<p style="text-align:center;">Zentrierter Absatz</p>
 ```
 
 <p align="center"><img src="https://i.imgur.com/RN7GVXV.gif" height="500" alt="alt text" title="styles demo"></p>
 
-# Exercise :
-create an Html page that looks the same like in the following example applying what you have learned Untill now.
+# Übung :
+Erstellen Sie eine HTML-Seite, die im folgenden Beispiel genauso aussieht wie das, was Sie bisher gelernt haben.
 
 <p align="center"><img src="https://i.imgur.com/y5jcJEz.png" height="500" alt="alt text" title="exercise 2"></p>
 
 
-# LISTS
+# Listen
 
-the lists have three types:
+Listen haben drei Typen:
 
-- ordered list `<ol>`: will automatically generate a number for each entry in the list.
-- unordered list `<ul>`:  with simple bullet points instead of numbers.
+- geordnete Liste `<ol>`: generiert automatisch eine Nummer für jeden Eintrag in der Liste.
+- ungeordnete Liste `<ul>`: mit einfachen Aufzählungszeichen anstelle von Zahlen.
 
 ```html
 <h3> Fruits! </h3>
@@ -334,14 +335,14 @@ the lists have three types:
 - Pit Bull
 - Whippet
 
-## Tables
+## Tabellen
 
-There are several layers to defining a table.
+Das Definieren einer Tabelle besteht aus mehreren Ebenen.
 
-- `<table>` Defines the table start
-- `<tr>` Table row
-- `<th>` Table header for top and side cells (optional).
-- `<td>` Actual table data, an individual cell.
+- `<table>` Definiert den Tabellenstart
+- `<tr>` Tabellenzeile
+- `<th>` Tabellenüberschrift für obere und seitliche Zellen (optional).
+- `<td>` Tabellendaten, eine einzelne Zelle.
 
 ```html
 <table style="text-align:center;" width="200" border="1">
@@ -363,26 +364,26 @@ There are several layers to defining a table.
 </table>
 ```
 
-## **1.What is CSS?**
+## **1. What is CSS?**
 
-`Cascading Style Sheets (CSS)`is a stylesheet language used to describe the presentation of a document written in HTML or XML . CSS describes how elements should appear on screen, on paper, in speech, or on other media.
+`Cascading Style Sheets (CSS)`ist eine Stylesheet-Sprache, mit der die Darstellung eines in HTML oder XML geschriebenen Dokuments beschrieben wird. CSS beschreibt, wie Elemente auf dem Bildschirm, auf Papier, in der Sprache oder auf anderen Medien angezeigt werden sollen.
 
-### **3 ways of using css**
+### **Drei Wege CSS zu nutzen**
 
-- Inline: using a style= attribute for single HTML elements inside `<body>`
+- Inline: Benutzen von style= attribute for jedes HTML-Element innerhalb des `<body>`
 
 ```html
 <!DOCTYPE html>
 <html>
 	<body>
 		<h1 style="color:blue;margin-left:30px;">This is a heading</h1>
-		<p>This is a paragraph</p>
+		<p>Das ist ein Absatz</p>
 	</body>
 </html>
 
 ```
 
-- Internal: using a `<style>` element in the HTML `<head>` section
+- Internal: Benutzen eines `<style>`Elements innerhalb des HTML `<head>`
 
 ```html
  <!DOCTYPE html>
@@ -399,16 +400,16 @@ There are several layers to defining a table.
 	</head>
 
 	<body>
-		<h1>This is aheading</h1>
-		<p>This is a paragraph</p>
+		<h1>Das ist eine Überschrift</h1>
+		<p>Das ist ein Absatz</p>
 	</body>
 </html>
 
 ```
 
-- External: using one or more external CSS files
+- External: Benutzen einer oder mehrerer CSS Dokumente
 
-In html file
+Im HTML Dokument
 
 ```html
  <!DOCTYPE html>
@@ -417,14 +418,14 @@ In html file
 		<link rel="stylesheet" 	type="text/css" hrel="mystyle.css" >
 	</head>
 	<body>
-		<h1>This is aheading</h1>
-		<p>This is a paragraph</p>
+		<h1>Das ist eine Überschrift</h1>
+		<p>Das ist ein Absatz</p>
 	</body>
 </html>
 
 ```
 
-In mystyle.css file
+Mit einem externen CSS Dokument
 
 ```css
 p {background-color:Blue;}
@@ -432,19 +433,18 @@ h1{margin-left:30p;}
 
 ```
 
-## **2.Element in CSS**
+## **2. Elemente in CSS**
 
 ### Element Selector
 
-an *`element selector`* — this is a selector that directly matches an HTML element name. To target all paragraphs in the document you would use the selector `p`. To turn all paragraphs green you would use:
-
+an *`element selector`* — Dies ist ein Selektor, der direkt mit einem HTML-Elementnamen übereinstimmt. Um alle Absätze im Dokument anzuvisieren, verwenden Sie den Selektor `p`. Um alle Absätze grün zu machen, würden Sie Folgendes verwenden:
 ```css
 p {
   color: green;
 }
 ```
 
-You can target multiple selectors at once, by separating the selectors with a comma. If I want all paragraphs and all list items to be green my rule looks like this:
+Sie können mehrere Selektoren gleichzeitig ansprechen, indem Sie die Selektoren durch ein Komma trennen. Wenn alle Absätze und Listenelemente grün sein sollen, sieht meine Regel folgendermaßen aus:
 
 ```css
 p, li {
@@ -452,9 +452,9 @@ p, li {
 }
 ```
 
-### Adding class
+### Klassen
 
-In your HTML document, add a class attribute to the second list item. Your list will now look like this:
+Fügen Sie in Ihrem HTML-Dokument dem zweiten Listenelement ein Klassenattribut hinzu. Ihre Liste sieht nun folgendermaßen aus:
 
 ```html
 <ul>
@@ -464,7 +464,7 @@ In your HTML document, add a class attribute to the second list item. Your lis
 </ul>
 ```
 
-In your CSS you can target the class of `special` by creating a selector that starts with a full stop character. Add the following to your CSS file:
+In Ihrem CSS können Sie die Klasse `special` als Ziel festlegen, indem Sie einen Selektor erstellen, der mit einem Punkt beginnt. Fügen Sie Ihrer CSS-Datei Folgendes hinzu:
 
 ```css
 .special {
@@ -473,11 +473,11 @@ In your CSS you can target the class of `special` by creating a selector that 
 }
 ```
 
-Save and refresh to see what the result is.
+Speichern und aktualisieren, um das Ergebnis zu sehen.
 
-You can apply the class of `special` to any element on your page that you want to have the same look as this list item. For example, you might want the `<span>` in the paragraph to also be orange and bold. Try adding a `class` of `special` to it, then reload your page and see what happens.
+Sie können die Klasse `special` auf jedes Element auf Ihrer Seite anwenden, das genauso aussehen soll wie dieses Listenelement. Beispielsweise möchten Sie möglicherweise, dass das `<span>` im Absatz ebenfalls orange und fett ist. Versuchen Sie, eine `class` von `special` hinzuzufügen, laden Sie dann Ihre Seite neu und sehen Sie, was passiert.
 
-Sometimes you will see rules with a selector that lists the HTML element selector along with the class:
+Manchmal sehen Sie Regeln mit einem Selektor, der den HTML-Element-Selektor zusammen mit der Klasse auflistet:
 
 ```css
 li.special {
@@ -486,13 +486,13 @@ li.special {
 }
 ```
 
-This syntax means "target any `li` element that has a class of special".
+Diese Syntax bedeutet, dass wir jedes "li" Element der Klasse "special" ansprechen
 
-## color and background-color
+## Farbe und Hintergrundfarbe
 
-Colors can be applied by using `color` and `background-color` (note that this must be the American English “color” and not “colour”).
+Farben können mit `color` und `background-color` angewendet werden (beachten Sie, dass dies die amerikanische englische “color” und nicht “colour”sein muss).
 
-A blue background and yellow text could look like this:
+Ein blauer Hintergrund und ein gelber Text könnten folgendermaßen aussehen:
 
 ```css
 h1 {
@@ -502,7 +502,7 @@ h1 {
 
 ```
 
-These colors might be a little too harsh, so you could change the code of your CSS file for slightly different shades:
+Diese Farben sind möglicherweise etwas zu anstrengend, sodass Sie den Code Ihrer CSS-Datei für leicht unterschiedliche Farbtöne ändern können:
 
 ```css
 body {
@@ -517,30 +517,29 @@ h1 {
 
 ```
 
-Save the CSS file and refresh your browser. You will see the colors of the first heading (the `h1` element) have changed to yellow and blue.
+Speichern Sie die CSS-Datei und aktualisieren Sie Ihren Browser. Sie werden sehen, dass sich die Farben der ersten Überschrift (das Element `h1`) in Gelb und Blau geändert haben.
 
-You can apply the `color` and `background-color` properties to most HTML elements, including `body`, which will change the colors of the page and everything in it.
+Sie können die Eigenschaften `color` und `background-color` auf die meisten HTML-Elemente anwenden, einschließlich `body`, wodurch die Farben der Seite und alles darin geändert werden.
 
-## Text formatting using css
+## Textformatierung mit CSS
 
 ### font-family
 
-This is the font itself, such as Times New Roman, Arial, or Verdana.
+Dies ist die Schriftart selbst, z. B. Times New Roman, Arial oder Verdana.
 
 ### font-style
 
-`font-style` states whether the text is italic or not. It can be `font-style: italic` or `font-style: normal`.
+`font-style` gibt an, ob der Text kursiv ist oder nicht. Es kann `font-style: italic` oder `font-style: normal` sein.
 
 ### text-transform
 
-`text-transform` will change the case of the text.
+`text-transform` ändert die Groß- und Kleinschreibung des Textes.
 
-- `text-transform: capitalize` turns the first letter of every word into uppercase.
-- `text-transform: uppercase` turns everything into uppercase.
-- `text-transform: lowercase` turns everything into lowercase.
-- `text-transform: none` I’ll leave for you to work out.
+- `text-transform: capitalize` wandelt den ersten Buchstaben jedes Wortes in Großbuchstaben um.
+- `text-transform: uppercase` verwandelt alles in Großbuchstaben.
+- `text-transform: lowercase` verwandelt alles in Kleinbuchstaben.
 
-**Example:**
+**Beispiel:**
 
 ```css
 body {
@@ -561,11 +560,10 @@ strong {
 
 ### Margin and Padding
 
-`margin` and `padding` are the two most commonly used properties for spacing-out elements. A margin is the space outside something, whereas padding is the space inside something.
-
+`margin`und`padding` sind die beiden am häufigsten verwendeten Eigenschaften für Abstandselemente. Ein Rand(Margin) ist der Raum außerhalb von etwas, während Polsterung(Padding) der Raum innerhalb von etwas ist.
 ![Html%20and%20CSS%20c7204d15b835490a837f2fa7451de01d/Untitled.png](Html%20and%20CSS%20c7204d15b835490a837f2fa7451de01d/Untitled.png)
 
-Change the CSS code for `h2` to the following:
+Ändern Sie den CSS-Code für `h2` wie folgt:
 
 ```css
 h2 {
@@ -577,9 +575,9 @@ h2 {
 
 ```
 
-This leaves a 20-pixel width space around the secondary header and the header itself is fat from the 40-pixel width padding.
+Dadurch bleibt ein Raum mit einer Breite von 20 Pixel um den sekundären Header herum, und der Header selbst ist durch das Auffüllen mit einer Breite von 40 Pixel fett.
 
-# Exercise :
-create an Html page that looks the same like in the following example applying what you have learned Untill now.
+# Übung :
+Erstellen Sie eine HTML-Seite, die im folgenden Beispiel genauso aussieht wie das, was Sie bisher gelernt haben.
 
 <p align="center"><img src="https://i.imgur.com/xWsiIQP.png" height="500" alt="alt text" title="exercise 3"></p>
