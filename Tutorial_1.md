@@ -18,8 +18,8 @@
 - [4 Regeln](#4-Regeln)
   * [4.1 Regeln für gute Datenvisualisierungen](#42-Regeln-für-gute-Datenvisualisierungen)
   * [4.2 Fehler](#42-Fehler)
-- [5 Formen](#4-Formen)
-
+- [5 Formen](#5-Formen)
+- [6 Quiz](#6-Quiz)
 
 
 
@@ -351,3 +351,7 @@ Beispiele (Geospatial):
       Tools: [Subway map jQuery plugin](http://www.kalyani.com/2010/10/subway-map-visualization-jquery-plugin/)
 
       Abbildung :Transport for London 06/2020,Transport for London | [Via Gizmodo](http://gizmodo.com/new-london-tube-maps-shows-how-long-it-takes-to-walk-n-1741879484)
+
+## 6 Quiz
+Um das eben erlernte zu testen haben wir ein kleines Quiz vorbereitet:
+[Link zum Quiz](https://form.jotform.com/202222101430026)
