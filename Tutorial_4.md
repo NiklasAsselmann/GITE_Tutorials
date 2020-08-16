@@ -25,7 +25,7 @@ Wer sich für die gebotenen Möglichkeiten und Funktionen von Leaflet interessie
 
 Nun kommen wir zur Step-by-Step Anleitung zur Erstellung einer einfachen Karte in einem beliebigen Webbrowser.
 
-Für die Programmierung ist ein Texteditor notwendig. Wir empfehlen an dieser Stelle einen HTML-Editor, wie [Brackets](http://brackets.io) oder [Atom](https://atom.io), welche für das Erstellen von Webanwendungen gut geeignet sind. Letzlich funktioniert aber auch ein einfacher Notepad-editor.
+Für die Programmierung ist ein Texteditor notwendig. Wir empfehlen an dieser Stelle den Online HTML-Editor [Codepen](https://codepen.io). Es können aber auch andere HTML-Editoren, wie [Brackets](http://brackets.io) oder [Atom](https://atom.io) verwendet werden, welche für das Erstellen von Webanwendungen gut geeignet sind. Ein einfacher Notepad-Editor reicht bereits auch schon.
 
 Zunächst bereiten wir unser HTML-Dokument vor. Öffne dazu deinen Texteditor und füge den folgenden Code deinem Dokument hinzu, womit die Struktur deiner Webseite definiert wird:
 ```
@@ -54,7 +54,7 @@ Zunächst bereiten wir unser HTML-Dokument vor. Öffne dazu deinen Texteditor un
 </html>
 ```
 
-Speicher dieses Dokument als "index.html" ab.
+Speicher dieses Dokument als "index.html" ab, sofern Du **keinen** Online-Editor verwendest.
 
 Um die Funktionen von Leaflet zu benutzen ist es nötig die vorprogrammierten CSS- und JavaScript-Dateien in unserem Dokument zu integrieren.
 
@@ -93,30 +93,24 @@ Stelle sicher, dass das ```<div>``` Element eine definierte Höhe hat, indem du 
 
 Nun kannst du deine erste Karte initialisieren.
 
-Wir stellen die Ansicht auf das Zentrum von Stuttgart und bestimmen eine Zoomstufe:
+Stelle stets sicher, dass der JavaScript Code nach dem ```<div>``` Element, welches die Karte enthält, eingebunden wird. 
+
+Wir stellen die Ansicht auf das Zentrum von Stuttgart und bestimmen eine Zoomstufe. Platziere dazu den folgenden Code zwischen den ```<script>``` Tags im ```<body>``` Teil.
 
 ```
 var map = L.map('map').setView([48.775, 9.182], 13);
 ```
 
+Füge als nächstes deiner Karte einen Tilelayer hinzu. In diesem Fall handelt es sich um den Tilelayer "OpenStreetMap". Das Erstellen eines Tilelayers umfasst normalerweise die Definition der URL-Vorlage für die Layerbilder und des Beschreibungstextes.
+
+```
+L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
+```
+
 **Übung:**
-1) Finde heraus wofür die oben stehenden Zahlen stehen?
+1) Finde heraus wofür die Zahlen 48.775, 9.182 und 13 stehen?
 2) Erstelle eine Karte auf der Münster im Zentrum zu sehen ist und stelle das Zoomlevel so ein, dass die Stadt Dortmund auf der Karte zu sehen ist.
-
-Füge als nächstes deiner Karte einen Tilelayer hinzu. In diesem Fall handelt es sich um den Tilelayer "Mapbox Streets". Das Erstellen eines Tilelayers umfasst normalerweise die Definition der URL-Vorlage für die Layerbilder, des Beschreibungstextes und der maximalen Zoomstufe des Layers.
-
-```
-L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    maxZoom: 18,
-    id: 'mapbox/streets-v11',
-    tileSize: 512,
-    zoomOffset: -1,
-    accessToken: 'your.mapbox.access.token'
-}).addTo(map);
-```
-
-Stelle stets sicher, dass der JavaScript Code nach dem ```<div>``` Element, welches die Karte enthält, eingebunden wird. 
 
 Glückwunsch! Nun solltest du deine erste funktionierende Leafletkarte erstellt haben.
 
@@ -154,5 +148,6 @@ circle.bindPopup("Ich bin ein Popup im Nirgendswo").openPopup();
 ```
 
 **Übung**:
+
 In Münster herscht starkes Unwetter. Im Umkreis von 20 km wird die Bevölkerung gebeten ihr Haus nicht zu verlassen. Zeige die Gefahrenzone auf der Leafletkarte an und gib ihr eine entsprechende Beschreibung.
 
