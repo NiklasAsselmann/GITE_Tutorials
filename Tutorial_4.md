@@ -7,7 +7,7 @@
 
 - [1 Was ist Leaflet?](#1-Was-ist-Leaflet)
 - [2 Die erste Karte mit Leaflet](#2-Die-erste-Karte-mit-Leaflet)
-  * [2.1 Das HTML-Dokument vorbereiten](#21-Das HTML)
+  * [2.1 Das HTML-Dokument vorbereiten](#21-Das-HTML-Dokument-vorbereiten)
   * [2.2 LeafletJS](#22-LeafletJS)
 
 
