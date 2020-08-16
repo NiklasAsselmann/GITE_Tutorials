@@ -113,6 +113,8 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
 ```
 
+![Stuttgart](Stuttgart.png)
+
 **Übung:**
 1) Finde heraus wofür die Zahlen 48.775, 9.182 und 13 stehen?
 2) Erstelle eine Karte auf der Münster im Zentrum zu sehen ist und stelle das Zoomlevel so ein, dass die Stadt Dortmund auf der Karte zu sehen ist.
