@@ -7,6 +7,8 @@
 
 - [1 Was ist Leaflet?](#1-Was-ist-Leaflet)
 - [2 Die erste Karte mit Leaflet](#2-Die-erste-Karte-mit-Leaflet)
+  * [2.1 Das HTML-Dokument vorbereiten](#21-Das HTML)
+  * [2.2 LeafletJS](#22-LeafletJS)
 
 
 
@@ -27,6 +29,7 @@ Nun kommen wir zur Step-by-Step Anleitung zur Erstellung einer einfachen Karte i
 
 Für die Programmierung ist ein Texteditor notwendig. Wir empfehlen an dieser Stelle den Online HTML-Editor [Codepen](https://codepen.io). Es können aber auch andere HTML-Editoren, wie [Brackets](http://brackets.io) oder [Atom](https://atom.io) verwendet werden, welche für das Erstellen von Webanwendungen gut geeignet sind. Ein einfacher Notepad-Editor reicht bereits auch schon.
 
+### 2.1 Das HTML-Dokument vorbereiten
 Zunächst bereiten wir unser HTML-Dokument vor. Öffne dazu deinen Texteditor und füge den folgenden Code deinem Dokument hinzu, womit die Struktur deiner Webseite definiert wird:
 ```
 <!DOCTYPE html>
@@ -90,6 +93,8 @@ Stelle sicher, dass das ```<div>``` Element eine definierte Höhe hat, indem du 
 ```
 #map { height: 500px; }
 ```
+
+### 2.2 LeafletJS
 
 Nun kannst du deine erste Karte initialisieren.
 
