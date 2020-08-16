@@ -113,7 +113,7 @@ L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
         attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
 ```
 
-![Stuttgart](Stuttgart.png)
+![Stuttgart](Abbildungen/Stuttgart.png)
 
 **Übung:**
 1) Finde heraus wofür die Zahlen 48.775, 9.182 und 13 stehen?
@@ -133,7 +133,7 @@ Wir können diesen Marker ganz einfach mit einem Popup beschreiben:
 marker.bindPopup("Geo 1 an der WWU").openPopup();
 ```
 
-![marker](marker.png)
+![marker](Abbildungen/marker.png)
 
 **Übung:**
 1) Füge die Fußballstadien Allianz Arena (München) und Signal Iduna Park (Dortmund) der Karte als Marker hinzu.
@@ -157,7 +157,7 @@ Analog zum Marker ist es auch hier möglich einen Popup zu erstellen:
 circle.bindPopup("Ich bin ein Popup im Nirgendswo").openPopup();
 ```
 
-![buffer](buffer.png)
+![buffer](Abbildungen/buffer.png)
 
 **Übung**:
 

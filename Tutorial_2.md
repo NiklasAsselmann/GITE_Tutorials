@@ -561,7 +561,7 @@ strong {
 ### Margin and Padding
 
 `margin`und`padding` sind die beiden am häufigsten verwendeten Eigenschaften für Abstandselemente. Ein Rand(Margin) ist der Raum außerhalb von etwas, während Polsterung(Padding) der Raum innerhalb von etwas ist.
-![Html%20and%20CSS%20c7204d15b835490a837f2fa7451de01d/Untitled.png](Html%20and%20CSS%20c7204d15b835490a837f2fa7451de01d/Untitled.png)
+![Html%20and%20CSS%20c7204d15b835490a837f2fa7451de01d/Untitled.png](Abbildungen/Html%20and%20CSS%20c7204d15b835490a837f2fa7451de01d/Untitled.png)
 
 Ändern Sie den CSS-Code für `h2` wie folgt:
 

@@ -27,10 +27,10 @@
 
 ## 1 Introduction
 Was haben diese drei Bilder gemeinsam?
-![Kartenvisualisierung](Abbildung_10.jpg) Abbildung: Kriminalitätsrate in den USA Quelle:
+![Kartenvisualisierung](Abbildungen/Abbildung_10.jpg) Abbildung: Kriminalitätsrate in den USA Quelle:
 https://securinghome.com/blog/crime-rate-by-state/
-![Politikvisualisierung](Abbildung_2.jpg) Abbildung: Sitzverteilung in Bundestag, Quelle: https://www.bundestag.de/parlament/plenum/sitzverteilung17-259488 
-![3D Visualisierung](Abbildung_11.jpg) Abbildung: 3D Datenvisualisierung, Quelle:
+![Politikvisualisierung](Abbildungen/Abbildung_2.jpg) Abbildung: Sitzverteilung in Bundestag, Quelle: https://www.bundestag.de/parlament/plenum/sitzverteilung17-259488 
+![3D Visualisierung](Abbildungen/Abbildung_11.jpg) Abbildung: 3D Datenvisualisierung, Quelle:
 https://de.123rf.com/
 
 - Die Antwort auf diese Frage ist, dass alle drei Abbildungen Daten visualisieren. 
@@ -43,7 +43,7 @@ Aber was genau ist Datenvisualisierung?
 
 - das folgende Diagramm zeigt den Process der Visualisierung
 
-![visualization%20process.png](visualization%20process.png)
+![visualization%20process.png](Abbildungen/visualization%20process.png)
 
 Der Benutzer kann mit der Visualisierung selbst und mit den Daten interagieren. Die Möglichkeit, mit diesen Elementen zu interagieren, ermöglicht es dem Benutzer, eine Reihe verschiedener Fragen zu beantworten.
 
@@ -138,7 +138,7 @@ Beispiele (Geospatial):
 
 - **[Choroplethenkarte](https://de.wikipedia.org/wiki/Choroplethenkarte)**
 
-    ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled.png =100x20](data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled.png)
+    ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled.png =100x20](Abbildungen/data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled.png)
 
     Tools: [GeoCommons](http://geocommons.com/), [Google Fusion Tables](http://code.google.com/apis/fusiontables/), [Google Maps API](https://developers.google.com/maps/), [Polymaps](http://polymaps.org/), [d3](http://d3js.org/)/[Protovis](http://mbostock.github.com/protovis/ex/choropleth.html), [Many Eyes](http://www-958.ibm.com/software/data/cognos/manyeyes/page/World_Map.html), [Google Charts](https://developers.google.com/chart/), [Tableau Public](http://www-958.ibm.com/software/data/cognos/manyeyes/), [Sci2](https://sci2.cns.iu.edu/), [TileMill](http://mapbox.com/tilemill/)
 
@@ -146,7 +146,7 @@ Beispiele (Geospatial):
 
 - **[Kartenanamorphote](https://de.wikipedia.org/wiki/Kartenanamorphote)**
 
-    ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%201.png](data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%201.png)
+    ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%201.png](Abbildungen/data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%201.png)
 
     Tools: [d3](http://d3js.org/)/[Protovis](http://mbostock.github.com/protovis/ex/cartogram.html) (Dorling Cartogram)
 
@@ -154,7 +154,7 @@ Beispiele (Geospatial):
 
 - **[Dot distribution map](http://en.wikipedia.org/wiki/Dot_distribution_map)**
 
-    ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%202.png](data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%202.png)
+    ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%202.png](Abbildungen/data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%202.png)
 
     Tools: [GeoCommons](http://geocommons.com/), [Google Fusion Tables](http://code.google.com/apis/fusiontables/), [Google Maps API](https://developers.google.com/maps/), [Polymaps](http://polymaps.org/), [Tableau Public](http://www-958.ibm.com/software/data/cognos/manyeyes/), [Sci2](https://sci2.cns.iu.edu/), [TileMill](http://mapbox.com/tilemill/)
 
@@ -162,7 +162,7 @@ Beispiele (Geospatial):
 
 - **[Proportional symbol map](http://en.wikipedia.org/wiki/Thematic_map#Proportional_symbol)**
 
-    ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%203.png](data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%203.png)
+    ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%203.png](Abbildungen/data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%203.png)
 
     Tools: [GeoCommons](http://geocommons.com/), [Google Fusion Tables](http://code.google.com/apis/fusiontables/), [Google Maps API](https://developers.google.com/maps/), [Polymaps](http://polymaps.org/), [d3](http://d3js.org/)/[Protovis](http://mbostock.github.com/protovis/ex/symbol.html), [Many Eyes](http://www-958.ibm.com/software/data/cognos/manyeyes/page/World_Map.html), [Tableau Public](http://www-958.ibm.com/software/data/cognos/manyeyes/), [Sci2](https://sci2.cns.iu.edu/), [TileMill](http://mapbox.com/tilemill/)
 
@@ -170,7 +170,7 @@ Beispiele (Geospatial):
 
 - **[Isolinie](https://de.wikipedia.org/wiki/Isolinie)**
 
-    ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%204.png](data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%204.png)
+    ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%204.png](Abbildungen/data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%204.png)
 
     Tools: [TileMill](http://mapbox.com/tilemill/)
 
@@ -178,7 +178,7 @@ Beispiele (Geospatial):
 
 - **[dasymetric map](http://en.wikipedia.org/wiki/Thematic_map#Dasymetric)**
 
-    ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%205.png](data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%205.png)
+    ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%205.png](Abbildungen/data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%205.png)
 
     Tools: R and QGIS.
 
@@ -192,13 +192,13 @@ Beispiele (Geospatial):
     - [Surface](http://en.wikipedia.org/wiki/Scientific_visualization#Surface_rendering) und [Volumen](http://en.wikipedia.org/wiki/Scientific_visualization#Volume_rendering) rendering
     - [Computer Simultionen](http://en.wikipedia.org/wiki/Scientific_visualization#Computer_simulation)
 
-### Zetlich
+### Zeitlich
 
 - Beispiele:
 
   - **[Zeitleiste](https://de.wikipedia.org/wiki/Zeitleiste)**
 
-      ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%206.png](data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%206.png)
+      ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%206.png](Abbildungen/data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%206.png)
 
       Tools: [SIMILE Timeline](http://www.simile-widgets.org/timeline/), [TimeFlow](https://github.com/FlowingMedia/TimeFlow/wiki/), [Timeline JS](http://timeline.verite.co/), [Excel](http://www.vertex42.com/ExcelArticles/create-a-timeline.html)
 
@@ -222,7 +222,7 @@ Beispiele (Geospatial):
 
   - **[Stream graph](http://en.wikipedia.org/wiki/Stream_graph)/[ThemeRiver](http://doi.ieeecomputersociety.org/10.1109/2945.981848)**
 
-      ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%207.png](data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%207.png)
+      ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%207.png](Abbildungen/data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%207.png)
 
       Tools: [original Java code](https://github.com/leebyron/streamgraph_generator), [Data Wrapper](http://datawrapper.de/), [d3](http://d3js.org/)/[Protovis](http://mbostock.github.com/protovis/ex/stream.html), [HTML5/JavaScript](http://web.student.tuwien.ac.at/~e0725639/streamgraph/streamgraph.html), [Python](http://mechanicalintegrator.com/2010/drawing-stream-graphs/), [Excel](http://www.excelhero.com/blog/2010/04/excel-streamgraph.html),[R](https://www.r-graph-gallery.com/154-basic-interactive-streamgraph-2.html)
 
@@ -238,7 +238,7 @@ Beispiele (Geospatial):
 
   - **[Polar-Area Diagramm](http://en.wikipedia.org/wiki/Pie_chart#Polar_area_diagram)/rose/circumplex chart**
 
-      ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%208.png](data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%208.png)
+      ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%208.png](Abbildungen/data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%208.png)
 
       Tools: [Protovis](http://mbostock.github.com/protovis/ex/crimea-rose.html), [Excel](http://www.excelcharts.com/blog/the-consultants-chart-revisited/),[R](http://conormclaughlin.net/2018/07/creating-circumplex-polar-bar-charts-in-r-with-ggplot2/)
 
@@ -258,15 +258,15 @@ Beispiele (Geospatial):
 
   - **[Histogram](https://de.wikipedia.org/wiki/Histogramm)**
 
-      ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%209.png](data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%209.png)
+      ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%209.png](Abbildungen/data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%209.png)
 
-      Tools: most statistical and charting software, [Protovis](http://mbostock.github.com/protovis/ex/histogram.html), [Many Eyes](http://www-958.ibm.com/software/data/cognos/manyeyes/page/Block_Histogram.html)
+      Tools: most statistical and charting software, [Protovis](http://mbostock.github.com/protovis/ex/histogram.html), [Many Eyes](Abbildungen/http://www-958.ibm.com/software/data/cognos/manyeyes/page/Block_Histogram.html)
 
       Abbildung: DanielPenfield. (2010). [Histogram_of_arrivals_per_minute](https://en.wikipedia.org/wiki/Histogram#/media/File:Histogram_of_arrivals_per_minute.svg).
 
   - **[Schlagwortwolke](https://de.wikipedia.org/wiki/Schlagwortwolke)**
 
-      ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%2010.png](data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%2010.png)
+      ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%2010.png](Abbildungen/data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%2010.png)
 
       Tools: [Wordle](http://www.wordle.net/), [Many Eyes](http://www-958.ibm.com/software/data/cognos/manyeyes/page/Word_Cloud_Generator.html), [d3](https://github.com/jasondavies/d3-cloud)
 
@@ -346,7 +346,7 @@ Beispiele (Geospatial):
 
   - **U-Bahn Plan**
 
-      ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%2014.png](data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%2014.png)
+      ![data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%2014.png](Abbildungen/data%20visualization%2000de69fdbd7c4a9e9c67a575aa890c1b/Untitled%2014.png)
 
       Tools: [Subway map jQuery plugin](http://www.kalyani.com/2010/10/subway-map-visualization-jquery-plugin/)
 
